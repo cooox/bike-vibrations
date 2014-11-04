@@ -5,7 +5,7 @@ import sqlite3
 
 
 DATA_VIBRATION = 'dummydata_vibration.txt'
-FIELDS_VIBRATION = ['lat', 'lon', 'height', 'datetime', 'easy', 'hard']
+FIELDS_VIBRATION = ['lat', 'lon', 'height', 'timestamp', 'easy', 'hard']
 
 dbconnector = sqlite3.connect('data.db')
 c = dbconnector.cursor()
@@ -15,16 +15,15 @@ c.execute('CREATE TABLE `vibration` ('
           'lat FLOAT, '
           'lon FLOAT, '
           'height FLOAT, '
-          'DATETIME INTEGER, '
+          'timestamp INTEGER, '
           'easy INTEGER, '
           'hard INTEGER)')
 
 with open(DATA_VIBRATION, 'r') as fh:
     reader = csv.DictReader(fh, fieldnames=FIELDS_VIBRATION, delimiter=',')
     for line in reader:
-        c.execute('INSERT INTO vibration VALUES (?,?,?,?,?,?)', (
-            line['lat'], line['lon'], line['height'], line['datetime'], line['easy'], line['hard']
-        ))
+        c.execute('INSERT INTO vibration VALUES (?,?,?,?,?,?)',
+                  tuple(line[f] for f in FIELDS_VIBRATION))
 
 dbconnector.commit()
 dbconnector.close()

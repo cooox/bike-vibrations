@@ -7,7 +7,7 @@ with open('dummydata_vibration.txt', 'w') as fh:
         data = { "lat": 51 + random.random(),
                  "lon": 13 + random.random(),
                  "height": 40 + random.random(),
-                 "datetime": 20141030143000,
+                 "timestamp": 20141030143000,
                  "easy": random.choice([0, 1]),
                  "hard": random.choice([0, 1])
         }
