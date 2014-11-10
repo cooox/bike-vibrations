@@ -1,7 +1,10 @@
 # Bike vibrations
 
-This is a draft.
+In the future, an Arduino will meter different sensors and this script shall put 
+those values from a .txt into a database and put the info on a map.
 
-In the future, an Arduino will meter different sensors and this script shall put those values from a .txt into a database.
+Uses:
+* Openlayers 3 http://openlayers.org/
+* Red marker icon http://www.clker.com/clipart-red-pin-5.html
 
 Copyright 2014 Dominik Pataky
