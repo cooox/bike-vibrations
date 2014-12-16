@@ -34,6 +34,10 @@ int hour;
 int minute;
 int seconds;
 
+double acc_X;
+double acc_Y;
+double acc_Z;
+
 boolean first = true;
 
 File myFile;
@@ -167,6 +171,14 @@ void loop() {
     first = false;
     delay(5000);
   }
+  
+  /* Get a new sensor event */
+  sensors_event_t event; 
+  accel.getEvent(&event);
+  
+  acc_X = event.acceleration.x;
+ acc_Y = event.acceleration.y;
+ acc_Z =event.acceleration.x;
 
   // approximately every minute, print out the current stats
   // if millis() or timer wraps around, we'll just reset it
@@ -186,9 +198,7 @@ void loop() {
     seconds = GPS.seconds;  
 
   }
-  /* Get a new sensor event */
-  sensors_event_t event; 
-  accel.getEvent(&event);
+  
 
 
   String fileInput = "";
@@ -199,13 +209,13 @@ void loop() {
 
     /* Display the results (acceleration is measured in m/s^2) */
     Serial.print("X: "); 
-    Serial.print(event.acceleration.x); 
+    Serial.print(acc_X); 
     Serial.print("  ");
     Serial.print("Y: "); 
-    Serial.print(event.acceleration.y); 
+    Serial.print(acc_Y); 
     Serial.print("  ");
     Serial.print("Z: "); 
-    Serial.print(event.acceleration.z); 
+    Serial.print(acc_Z); 
     Serial.print("  ");
     Serial.println("m/s^2 ");
 
@@ -218,11 +228,11 @@ void loop() {
     fileInput = "";
 
 
-    fileInput.concat(event.acceleration.x);
+    fileInput.concat(acc_X);
     fileInput.concat(",");
-    fileInput.concat(event.acceleration.y);
+    fileInput.concat(acc_Y);
     fileInput.concat(",");
-    fileInput.concat(event.acceleration.z);
+    fileInput.concat(acc_Z);
     fileInput.concat(",");
     fileInput.concat(latitude);
     fileInput.concat(",");
@@ -255,13 +265,13 @@ void loop() {
     Serial.println("starke Vibration");
     /* Display the results (acceleration is measured in m/s^2) */
     Serial.print("X: "); 
-    Serial.print(event.acceleration.x); 
+    Serial.print(acc_X); 
     Serial.print("  ");
     Serial.print("Y: "); 
-    Serial.print(event.acceleration.y); 
+    Serial.print(acc_Y); 
     Serial.print("  ");
     Serial.print("Z: "); 
-    Serial.print(event.acceleration.z); 
+    Serial.print(acc_Z); 
     Serial.print("  ");
     Serial.println("m/s^2 ");
 
@@ -272,11 +282,11 @@ void loop() {
     myFile.print(fileInput);
     fileInput = "";
 
-    fileInput.concat(event.acceleration.x);
+    fileInput.concat(acc_X);
     fileInput.concat(",");
-    fileInput.concat(event.acceleration.y);
+    fileInput.concat(acc_Y);
     fileInput.concat(",");
-    fileInput.concat(event.acceleration.z);
+    fileInput.concat(acc_Z);
     fileInput.concat(",");
     fileInput.concat(latitude);
     fileInput.concat(",");
