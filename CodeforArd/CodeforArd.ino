@@ -212,231 +212,80 @@ void loop() {
     hour = GPS.hour;
     minute = GPS.minute;
     seconds = GPS.seconds;  
-
   }
-  
+ 
+    String fileInput = "";
+  // Display the results (acceleration is measured in m/s^2) 
+    Serial.print("X: "); 
+    Serial.print(acc_X); 
+    Serial.print("  ");
+    Serial.print("Y: "); 
+    Serial.print(acc_Y); 
+    Serial.print("  ");
+    Serial.print("Z: "); 
+    Serial.print(acc_Z); 
+    Serial.print("  ");
+    Serial.println("m/s^2 ");
 
 
-  String fileInput = "";
+    stamp++;
+    fileInput.concat(stamp);
+    fileInput.concat(",");
+    myFile.print(fileInput);
+
+
+    fileInput.concat(acc_X);
+    fileInput.concat(",");
+    fileInput.concat(acc_Y);
+    fileInput.concat(",");
+    fileInput.concat(acc_Z);
+    fileInput.concat(",");
+    fileInput.concat(latitude);
+    fileInput.concat(",");
+    fileInput.concat(longitude);
+    fileInput.concat(",");
+    fileInput.concat(day);
+    fileInput.concat(",");
+    fileInput.concat(month);
+    fileInput.concat(",");
+    fileInput.concat(year);
+    fileInput.concat(",");
+    fileInput.concat(hour);
+    fileInput.concat(",");
+    fileInput.concat(minute);
+    fileInput.concat(",");
+    fileInput.concat(seconds);
+    fileInput.concat(",");
+    fileInput.concat(millis());
 
 
   if (digitalRead(vibsens_high1) == LOW){
     Serial.println("schwache Vibration1");
-
-    // Display the results (acceleration is measured in m/s^2) 
-    Serial.print("X: "); 
-    Serial.print(acc_X); 
-    Serial.print("  ");
-    Serial.print("Y: "); 
-    Serial.print(acc_Y); 
-    Serial.print("  ");
-    Serial.print("Z: "); 
-    Serial.print(acc_Z); 
-    Serial.print("  ");
-    Serial.println("m/s^2 ");
-
-
-    stamp++;
-    fileInput = "";
-    fileInput.concat(stamp);
-    fileInput.concat(",");
-    myFile.print(fileInput);
-    fileInput = "";
-
-
-    fileInput.concat(acc_X);
-    fileInput.concat(",");
-    fileInput.concat(acc_Y);
-    fileInput.concat(",");
-    fileInput.concat(acc_Z);
-    fileInput.concat(",");
-    fileInput.concat(latitude);
-    fileInput.concat(",");
-    fileInput.concat(longitude);
-    fileInput.concat(",");
-    fileInput.concat(day);
-    fileInput.concat(",");
-    fileInput.concat(month);
-    fileInput.concat(",");
-    fileInput.concat(year);
-    fileInput.concat(",");
-    fileInput.concat(hour);
-    fileInput.concat(",");
-    fileInput.concat(minute);
-    fileInput.concat(",");
-    fileInput.concat(seconds);
-    fileInput.concat(",");
-    fileInput.concat(millis());
-    fileInput.concat(",");
-    fileInput.concat("1");
+    fileInput.concat(",1");
 
     myFile.println(fileInput);
     Serial.print(fileInput);
-
-
-
   }
   
  if (digitalRead(vibsens_high2) == LOW){
     Serial.println("schwache Vibration2");
-
-    // Display the results (acceleration is measured in m/s^2) 
-    Serial.print("X: "); 
-    Serial.print(acc_X); 
-    Serial.print("  ");
-    Serial.print("Y: "); 
-    Serial.print(acc_Y); 
-    Serial.print("  ");
-    Serial.print("Z: "); 
-    Serial.print(acc_Z); 
-    Serial.print("  ");
-    Serial.println("m/s^2 ");
-
-
-    stamp++;
-    fileInput = "";
-    fileInput.concat(stamp);
-    fileInput.concat(",");
-    myFile.print(fileInput);
-    fileInput = "";
-
-
-    fileInput.concat(acc_X);
-    fileInput.concat(",");
-    fileInput.concat(acc_Y);
-    fileInput.concat(",");
-    fileInput.concat(acc_Z);
-    fileInput.concat(",");
-    fileInput.concat(latitude);
-    fileInput.concat(",");
-    fileInput.concat(longitude);
-    fileInput.concat(",");
-    fileInput.concat(day);
-    fileInput.concat(",");
-    fileInput.concat(month);
-    fileInput.concat(",");
-    fileInput.concat(year);
-    fileInput.concat(",");
-    fileInput.concat(hour);
-    fileInput.concat(",");
-    fileInput.concat(minute);
-    fileInput.concat(",");
-    fileInput.concat(seconds);
-    fileInput.concat(",");
-    fileInput.concat(millis());
-    fileInput.concat(",");
-    fileInput.concat("2");
+    fileInput.concat(",2");
 
     myFile.println(fileInput);
     Serial.print(fileInput);
-
-
-
-  }
+ }
   
  if (digitalRead(vibsens_high3) == LOW){
     Serial.println("schwache Vibration3");
-
-    //Display the results (acceleration is measured in m/s^2) 
-    Serial.print("X: "); 
-    Serial.print(acc_X); 
-    Serial.print("  ");
-    Serial.print("Y: "); 
-    Serial.print(acc_Y); 
-    Serial.print("  ");
-    Serial.print("Z: "); 
-    Serial.print(acc_Z); 
-    Serial.print("  ");
-    Serial.println("m/s^2 ");
-
-
-    stamp++;
-    fileInput = "";
-    fileInput.concat(stamp);
-    fileInput.concat(",");
-    myFile.print(fileInput);
-    fileInput = "";
-
-
-    fileInput.concat(acc_X);
-    fileInput.concat(",");
-    fileInput.concat(acc_Y);
-    fileInput.concat(",");
-    fileInput.concat(acc_Z);
-    fileInput.concat(",");
-    fileInput.concat(latitude);
-    fileInput.concat(",");
-    fileInput.concat(longitude);
-    fileInput.concat(",");
-    fileInput.concat(day);
-    fileInput.concat(",");
-    fileInput.concat(month);
-    fileInput.concat(",");
-    fileInput.concat(year);
-    fileInput.concat(",");
-    fileInput.concat(hour);
-    fileInput.concat(",");
-    fileInput.concat(minute);
-    fileInput.concat(",");
-    fileInput.concat(seconds);
-    fileInput.concat(",");
-    fileInput.concat(millis());
-    fileInput.concat(",");
-    fileInput.concat("3");
+    fileInput.concat(",3");
 
     myFile.println(fileInput);
     Serial.print(fileInput);
-
-
-
-  }
+}
   
   if (digitalRead(vibsens_low1) == LOW){
     Serial.println("starke Vibration1");
-    // Display the results (acceleration is measured in m/s^2) 
-    Serial.print("X: "); 
-    Serial.print(acc_X); 
-    Serial.print("  ");
-    Serial.print("Y: "); 
-    Serial.print(acc_Y); 
-    Serial.print("  ");
-    Serial.print("Z: "); 
-    Serial.print(acc_Z); 
-    Serial.print("  ");
-    Serial.println("m/s^2 ");
-
-    stamp++;
-    fileInput = "";
-    fileInput.concat(stamp);
-    fileInput.concat(",");
-    myFile.print(fileInput);
-    fileInput = "";
-
-    fileInput.concat(acc_X);
-    fileInput.concat(",");
-    fileInput.concat(acc_Y);
-    fileInput.concat(",");
-    fileInput.concat(acc_Z);
-    fileInput.concat(",");
-    fileInput.concat(latitude);
-    fileInput.concat(",");
-    fileInput.concat(longitude);
-    fileInput.concat(",");
-    fileInput.concat(day);
-    fileInput.concat(",");
-    fileInput.concat(month);
-    fileInput.concat(",");
-    fileInput.concat(year);
-    fileInput.concat(",");
-    fileInput.concat(hour);
-    fileInput.concat(",");
-    fileInput.concat(minute);
-    fileInput.concat(",");
-    fileInput.concat(seconds);
-    fileInput.concat(",");
-    fileInput.concat(millis());
-    fileInput.concat(",");
-    fileInput.concat("4");
+    fileInput.concat(",4");
 
     myFile.println(fileInput);
     Serial.print(fileInput);
@@ -444,50 +293,7 @@ void loop() {
   
   if (digitalRead(vibsens_low2) == LOW){
     Serial.println("starke Vibration2");
-    // Display the results (acceleration is measured in m/s^2) 
-    Serial.print("X: "); 
-    Serial.print(acc_X); 
-    Serial.print("  ");
-    Serial.print("Y: "); 
-    Serial.print(acc_Y); 
-    Serial.print("  ");
-    Serial.print("Z: "); 
-    Serial.print(acc_Z); 
-    Serial.print("  ");
-    Serial.println("m/s^2 ");
-
-    stamp++;
-    fileInput = "";
-    fileInput.concat(stamp);
-    fileInput.concat(",");
-    myFile.print(fileInput);
-    fileInput = "";
-
-    fileInput.concat(acc_X);
-    fileInput.concat(",");
-    fileInput.concat(acc_Y);
-    fileInput.concat(",");
-    fileInput.concat(acc_Z);
-    fileInput.concat(",");
-    fileInput.concat(latitude);
-    fileInput.concat(",");
-    fileInput.concat(longitude);
-    fileInput.concat(",");
-    fileInput.concat(day);
-    fileInput.concat(",");
-    fileInput.concat(month);
-    fileInput.concat(",");
-    fileInput.concat(year);
-    fileInput.concat(",");
-    fileInput.concat(hour);
-    fileInput.concat(",");
-    fileInput.concat(minute);
-    fileInput.concat(",");
-    fileInput.concat(seconds);
-    fileInput.concat(",");
-    fileInput.concat(millis());
-    fileInput.concat(",");
-    fileInput.concat("5");
+    fileInput.concat(",5");
 
     myFile.println(fileInput);
     Serial.print(fileInput);
@@ -495,50 +301,7 @@ void loop() {
   
   if (digitalRead(vibsens_low3) == LOW){
     Serial.println("starke Vibration3");
-    // Display the results (acceleration is measured in m/s^2) 
-    Serial.print("X: "); 
-    Serial.print(acc_X); 
-    Serial.print("  ");
-    Serial.print("Y: "); 
-    Serial.print(acc_Y); 
-    Serial.print("  ");
-    Serial.print("Z: "); 
-    Serial.print(acc_Z); 
-    Serial.print("  ");
-    Serial.println("m/s^2 ");
-
-    stamp++;
-    fileInput = "";
-    fileInput.concat(stamp);
-    fileInput.concat(",");
-    myFile.print(fileInput);
-    fileInput = "";
-
-    fileInput.concat(acc_X);
-    fileInput.concat(",");
-    fileInput.concat(acc_Y);
-    fileInput.concat(",");
-    fileInput.concat(acc_Z);
-    fileInput.concat(",");
-    fileInput.concat(latitude);
-    fileInput.concat(",");
-    fileInput.concat(longitude);
-    fileInput.concat(",");
-    fileInput.concat(day);
-    fileInput.concat(",");
-    fileInput.concat(month);
-    fileInput.concat(",");
-    fileInput.concat(year);
-    fileInput.concat(",");
-    fileInput.concat(hour);
-    fileInput.concat(",");
-    fileInput.concat(minute);
-    fileInput.concat(",");
-    fileInput.concat(seconds);
-    fileInput.concat(",");
-    fileInput.concat(millis());
-    fileInput.concat(",");
-    fileInput.concat("6");
+    fileInput.concat(",6");
 
     myFile.println(fileInput);
     Serial.print(fileInput);
@@ -547,53 +310,7 @@ void loop() {
 
    if (timer2 > 5000){
      timer2 = 0;
-    //Display the results (acceleration is measured in m/s^2) 
-    Serial.print("X: "); 
-    Serial.print(acc_X); 
-    Serial.print("  ");
-    Serial.print("Y: "); 
-    Serial.print(acc_Y); 
-    Serial.print("  ");
-    Serial.print("Z: "); 
-    Serial.print(acc_Z); 
-    Serial.print("  ");
-    Serial.println("m/s^2 ");
-    
-
-
-    stamp++;
-    fileInput = "";
-    fileInput.concat(stamp);
-    fileInput.concat(",");
-    myFile.print(fileInput);
-    fileInput = "";
-
-
-    fileInput.concat(acc_X);
-    fileInput.concat(",");
-    fileInput.concat(acc_Y);
-    fileInput.concat(",");
-    fileInput.concat(acc_Z);
-    fileInput.concat(",");
-    fileInput.concat(latitude);
-    fileInput.concat(",");
-    fileInput.concat(longitude);
-    fileInput.concat(",");
-    fileInput.concat(day);
-    fileInput.concat(",");
-    fileInput.concat(month);
-    fileInput.concat(",");
-    fileInput.concat(year);
-    fileInput.concat(",");
-    fileInput.concat(hour);
-    fileInput.concat(",");
-    fileInput.concat(minute);
-    fileInput.concat(",");
-    fileInput.concat(seconds);
-    fileInput.concat(",");
-    fileInput.concat(millis());
-    fileInput.concat(",");
-    fileInput.concat("7");
+    fileInput.concat(",7");
 
     myFile.println(fileInput);
     Serial.print(fileInput);
