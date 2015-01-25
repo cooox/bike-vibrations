@@ -21,10 +21,14 @@ Adafruit_GPS GPS(&mySerial);
 
 // Set GPSECHO to 'false' to turn off echoing the GPS data to the Serial console
 // Set to 'true' if you want to debug and listen to the raw GPS sentences
-#define GPSECHO  false
+#define GPSECHO false
 
-int stamp =0;
+// Timers and timestamp
+int stamp = 0;
+uint32_t timer = millis();
+elapsedMillis timer2;
 
+// GPS variables
 double latitude;
 double longitude; 
 int day;
@@ -34,22 +38,29 @@ int hour;
 int minute;
 int seconds;
 
-
-elapsedMillis timer2;
-
-
+// IMU variables
 double acc_X;
 double acc_Y;
 double acc_Z;
 
-boolean first = true;
-
+// Our file on the SD card
 File myFile;
 
+// Pin configuration
+const int vibsens_high1 = 6; //PIN empfindlicher Sensor, 18010, kurz
+const int vibsens_high2 = 2;
+const int vibsens_high3 = 0;
+const int vibsens_low1 = 5;  //PIN weniger empfindlicher Sensor, 18030, lang
+const int vibsens_low2 = 4;
+const int vibsens_low3 = 3;
 
 // change this to match your SD shield or module;
 //     Adafruit SD shields and modules: pin 10
 const int chipSelect = 10;
+
+// Setup delay flag
+boolean first = true;
+
 
 void displaySensorDetails(void)
 {
@@ -73,31 +84,61 @@ void displaySensorDetails(void)
   Serial.println(" m/s^2");  
   Serial.println("------------------------------------");
   Serial.println("");
-  delay(500);
 }
 
+String fileInputPreamble()
+{
+  /*
+   * Every time the loop() detects a vibration or the timer
+   * causes a write, all writes share a lot of values which
+   * are collected in this function.
+   *
+   * Returns a String which needs the unique vibration type
+   * identifier (1 to 7).
+   */
+  String fileInput = "";
 
+  stamp++;
+  fileInput.concat(stamp);
+  fileInput.concat(",");
+  fileInput.concat(acc_X);
+  fileInput.concat(",");
+  fileInput.concat(acc_Y);
+  fileInput.concat(",");
+  fileInput.concat(acc_Z);
+  fileInput.concat(",");
+  fileInput.concat(latitude);
+  fileInput.concat(",");
+  fileInput.concat(longitude);
+  fileInput.concat(",");
+  fileInput.concat(day);
+  fileInput.concat(",");
+  fileInput.concat(month);
+  fileInput.concat(",");
+  fileInput.concat(year);
+  fileInput.concat(",");
+  fileInput.concat(hour);
+  fileInput.concat(",");
+  fileInput.concat(minute);
+  fileInput.concat(",");
+  fileInput.concat(seconds);
+  fileInput.concat(",");
+  fileInput.concat(millis());
 
-const int vibsens_high1 = 6; //PIN empfindlicher Sensor, 18010, kurz
-const int vibsens_high2 = 2;
-const int vibsens_high3 = 0;
-const int vibsens_low1 = 5;  //PIN weniger empfindlicher Sensor, 18030, lang
-const int vibsens_low2 = 4;
-const int vibsens_low3 = 3;
+  return fileInput;
+}
 
-
-
-void setup() {
-
+void setup() 
+{
   Serial.begin(9600);
   Serial.print("Initializing SD card...");
+
   // On the Ethernet Shield, CS is pin 4. It's set as an output by default.
   // Note that even if it's not used as the CS pin, the hardware SS pin 
   // (10 on most Arduino boards, 53 on the Mega) must be left as an output 
   // or the SD library functions will not work. 
   pinMode(SS, OUTPUT);
 
-  //  if (!SD.begin(chipSelect)) {
   if (!SD.begin(chipSelect, 11, 12, 13)) {
     Serial.println("-initialization failed!");
     return;
@@ -112,7 +153,6 @@ void setup() {
   //GPS block--------------------------------------------------------------------
   // connect at 115200 so we can read the GPS fast enough and echo without dropping chars
   // also spit it out
-  Serial.println("Adafruit GPS library basic test!");
 
   GPS.begin(9600);
   // uncomment this line to turn on RMC (recommended minimum) and GGA (fix data) including altitude
@@ -129,13 +169,12 @@ void setup() {
 
   // Request updates on antenna status, comment out to keep quiet
   GPS.sendCommand(PGCMD_ANTENNA);
-
-
   delay(1000);
+
   // Ask for firmware version
   mySerial.println(PMTK_Q_RELEASE);
 
-
+  // Set up vibration sensors
   pinMode(vibsens_high1, INPUT_PULLUP);
   pinMode(vibsens_high2, INPUT_PULLUP);
   pinMode(vibsens_high3, INPUT_PULLUP);
@@ -144,8 +183,7 @@ void setup() {
   pinMode(vibsens_low3, INPUT_PULLUP);
 
   /* Initialise the sensor */
-  if(!accel.begin())
-  {
+  if(!accel.begin()) {
     /* There was a problem detecting the ADXL345 ... check your connections */
     Serial.println("Ooops, no LSM303 detected ... Check your wiring!");
     while(1);
@@ -158,15 +196,12 @@ void setup() {
 
 }
 
-uint32_t timer = millis();
-
-
 
 void loop() {
-
-  //GPS block-------------------------------------------------------------------
+  /*
+   * GPS readings and set up
+   */
   char c = GPS.read();
-  // if you want to debug, this is a good time to do it!
 
   if ((c) && (GPSECHO))
   Serial.write(c); 
@@ -183,26 +218,33 @@ void loop() {
 
   }
 
-  if (first){
+
+  /*
+   * Delay the first run for some time, so GPS gets ready
+   */
+  if (first) {
+    // Wait for GPS to get ready
     first = false;
     delay(5000);
   }
   
-  /* Get a new sensor event */
+
+  /*
+   * Sensor readings and file input
+   */
   sensors_event_t event; 
   accel.getEvent(&event);
   
   acc_X = event.acceleration.x;
- acc_Y = event.acceleration.y;
- acc_Z =event.acceleration.x;
+  acc_Y = event.acceleration.y;
+  acc_Z = event.acceleration.x;
 
   // approximately every minute, print out the current stats
   // if millis() or timer wraps around, we'll just reset it
-  if (timer > millis())  timer = millis();
+  if (timer > millis()) timer = millis();
 
-  // approximately every 2 second, print out the current stats
+  // Update GPS data approximately every 2 second
   if (millis() - timer > 2000) { 
-    Serial.println("INSIDE");
     timer = millis(); // reset the timer
     latitude = GPS.latitude;
     longitude = GPS.longitude;
@@ -214,110 +256,85 @@ void loop() {
     seconds = GPS.seconds;  
   }
  
-    String fileInput = "";
   // Display the results (acceleration is measured in m/s^2) 
-    Serial.print("X: "); 
-    Serial.print(acc_X); 
-    Serial.print("  ");
-    Serial.print("Y: "); 
-    Serial.print(acc_Y); 
-    Serial.print("  ");
-    Serial.print("Z: "); 
-    Serial.print(acc_Z); 
-    Serial.print("  ");
-    Serial.println("m/s^2 ");
+  Serial.print("X: "); 
+  Serial.print(acc_X); 
+  Serial.print("  ");
+  Serial.print("Y: "); 
+  Serial.print(acc_Y); 
+  Serial.print("  ");
+  Serial.print("Z: "); 
+  Serial.print(acc_Z); 
+  Serial.print("  ");
+  Serial.println("m/s^2 ");
 
 
-    stamp++;
-    fileInput.concat(stamp);
-    fileInput.concat(",");
-    myFile.print(fileInput);
-
-
-    fileInput.concat(acc_X);
-    fileInput.concat(",");
-    fileInput.concat(acc_Y);
-    fileInput.concat(",");
-    fileInput.concat(acc_Z);
-    fileInput.concat(",");
-    fileInput.concat(latitude);
-    fileInput.concat(",");
-    fileInput.concat(longitude);
-    fileInput.concat(",");
-    fileInput.concat(day);
-    fileInput.concat(",");
-    fileInput.concat(month);
-    fileInput.concat(",");
-    fileInput.concat(year);
-    fileInput.concat(",");
-    fileInput.concat(hour);
-    fileInput.concat(",");
-    fileInput.concat(minute);
-    fileInput.concat(",");
-    fileInput.concat(seconds);
-    fileInput.concat(",");
-    fileInput.concat(millis());
-
-
-  if (digitalRead(vibsens_high1) == LOW){
+  if (digitalRead(vibsens_high1) == LOW) {
+    String fileInput = fileInputPreamble();
     Serial.println("schwache Vibration1");
     fileInput.concat(",1");
-
+    
     myFile.println(fileInput);
     Serial.print(fileInput);
   }
   
- if (digitalRead(vibsens_high2) == LOW){
+  if (digitalRead(vibsens_high2) == LOW){
+    String fileInput = fileInputPreamble();
     Serial.println("schwache Vibration2");
     fileInput.concat(",2");
-
+    
     myFile.println(fileInput);
     Serial.print(fileInput);
- }
+  }
   
- if (digitalRead(vibsens_high3) == LOW){
+  if (digitalRead(vibsens_high3) == LOW){
+    String fileInput = fileInputPreamble();
     Serial.println("schwache Vibration3");
     fileInput.concat(",3");
-
+    
     myFile.println(fileInput);
     Serial.print(fileInput);
-}
+  }
   
   if (digitalRead(vibsens_low1) == LOW){
+    String fileInput = fileInputPreamble();
     Serial.println("starke Vibration1");
     fileInput.concat(",4");
-
+    
     myFile.println(fileInput);
     Serial.print(fileInput);
   }
   
   if (digitalRead(vibsens_low2) == LOW){
+    String fileInput = fileInputPreamble();
     Serial.println("starke Vibration2");
     fileInput.concat(",5");
-
+    
     myFile.println(fileInput);
     Serial.print(fileInput);
   }
   
   if (digitalRead(vibsens_low3) == LOW){
+    String fileInput = fileInputPreamble();
     Serial.println("starke Vibration3");
     fileInput.concat(",6");
-
+    
     myFile.println(fileInput);
     Serial.print(fileInput);
   }
 
+  // Timer every 5 seconds
+  if (timer2 > 5000) {
+    timer2 = 0;
 
-   if (timer2 > 5000){
-     timer2 = 0;
+    String fileInput = fileInputPreamble();
     fileInput.concat(",7");
-
+    
     myFile.println(fileInput);
     Serial.print(fileInput);
-    
     Serial.println(", 5s log");
-   }
-
+  }
+  
   myFile.flush();
 }
 
