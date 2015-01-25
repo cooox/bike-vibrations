@@ -2,9 +2,12 @@
 
 import csv
 import sqlite3
+import sys
 
+if len(sys.argv) < 2:
+    exit("Filename of datafile is missing!\nUsage: 'python {} <datafile>'".format(sys.argv[0]))
 
-DATA_VIBRATION = 'DATA.txt'
+DATA_VIBRATION = sys.argv[1]
 
 # Seq = Sequence number inserted by the Arduino
 # vibration_type = 1 (soft vibration), 2 (hard vibration), 3 (timer update)
@@ -32,9 +35,13 @@ c.execute('CREATE TABLE `vibration` ('
         'runtime INTEGER, '
         'vibration_type INTEGER)')
 
+counter_total = 0
+counter_imported = 0
+
 with open(DATA_VIBRATION, 'r') as fh:
     reader = csv.DictReader(fh, fieldnames=FIELDS_VIBRATION, delimiter=',')
     for line in reader:
+        counter_total += 1
         # filter criterias
         if float(line['lat']) == 0 or float(line['lon']) == 0:
             # skip lines with no GPS coordinates
@@ -44,17 +51,12 @@ with open(DATA_VIBRATION, 'r') as fh:
         for x in ['lat', 'lon']:
             line[x] = float(line[x][:2]) + float(line[x][2:]) / 60
 
-        # map sensor IDs to an integer
-        type_int = { 
-                '1.1': 1, '1.2': 2, '1.3': 3, 
-                '2.1': 4, '2.2': 5, '2.3': 6, 
-                '3': 7
-        }
-        line['vibration_type'] = type_int[line['vibration_type']]
-
         # convert line to a tuple and insert the tuple as row into the database
         data = tuple(line[f] for f in FIELDS_VIBRATION)
         c.execute('INSERT INTO vibration VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)', data)
+        counter_imported += 1
 
 dbconnector.commit()
 dbconnector.close()
+
+print("{} of {} entries imported into database.".format(counter_imported, counter_total))
