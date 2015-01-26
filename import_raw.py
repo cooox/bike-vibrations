@@ -42,9 +42,17 @@ with open(DATA_VIBRATION, 'r') as fh:
     reader = csv.DictReader(fh, fieldnames=FIELDS_VIBRATION, delimiter=',')
     for line in reader:
         counter_total += 1
+        
         # filter criterias
-        if float(line['lat']) == 0 or float(line['lon']) == 0:
+        lat = float(line['lat'])
+        lon = float(line['lon'])
+
+        if lat == 0 or lon == 0:
             # skip lines with no GPS coordinates
+            continue
+
+        if lat < 5000 or lat > 5200 or lon < 1340 or lon > 1400:
+            # skip lines with broken GPS coordinates
             continue
 
         # convert NMEA 4-digit to 2-digit GPS
