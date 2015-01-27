@@ -145,11 +145,15 @@ void setup()
   }
   Serial.println("+initialization done.");
 
-  // open the file. note that only one file can be open at a time,
-  // so you have to close this one before opening another.
+
+  //check if data.txt already exists from previous tours; if so, delete it
+  if (SD.exists("data.txt")) {
+    SD.remove("data.txt");
+  }
+  
+  //(re)create and open file to write in
   myFile = SD.open("data.txt", FILE_WRITE);
-
-
+  
   //GPS block--------------------------------------------------------------------
   // connect at 115200 so we can read the GPS fast enough and echo without dropping chars
   // also spit it out
@@ -255,19 +259,6 @@ void loop() {
     minute = GPS.minute;
     seconds = GPS.seconds;  
   }
- 
-  // Display the results (acceleration is measured in m/s^2) 
-  Serial.print("X: "); 
-  Serial.print(acc_X); 
-  Serial.print("  ");
-  Serial.print("Y: "); 
-  Serial.print(acc_Y); 
-  Serial.print("  ");
-  Serial.print("Z: "); 
-  Serial.print(acc_Z); 
-  Serial.print("  ");
-  Serial.println("m/s^2 ");
-
 
   if (digitalRead(vibsens_high1) == LOW) {
     String fileInput = fileInputPreamble();
