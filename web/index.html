@@ -12,6 +12,28 @@
     <script src="ol.js" type="text/javascript"></script>
     <script src="data.js" type="text/javascript"></script>
     <script type="text/javascript">
+        function create_layerstyle(marker_png) {
+            var style = new ol.style.Style({
+                image: new ol.style.Icon(({
+                    anchor: [0.5, 99], // middle centered, above the point
+                    anchorXUnits: 'fraction',
+                    anchorYUnits: 'pixels',
+                    opacity: 0.8,
+                    src: marker_png
+                }))
+            });
+            return style;
+        }
+
+        function create_clustersource(distance, features) {
+            return new ol.source.Cluster({
+                distance: distance,
+                source: new ol.source.Vector({
+                    features: features
+                })
+            })
+        }
+
         var iconFeatures_soft = [];
         var iconFeatures_hard = [];
         var iconFeatures_time = [];
@@ -38,51 +60,22 @@
 
         var layer01 = new ol.layer.Vector({
             // Soft vibrations layer
-            source: new ol.source.Vector({
-                features: iconFeatures_soft
-            }),
-            style: new ol.style.Style({
-                image: new ol.style.Icon(({
-                    anchor: [0.5, 99], // middle centered, above the point
-                    anchorXUnits: 'fraction',
-                    anchorYUnits: 'pixels',
-                    opacity: 0.8,
-                    src: 'light-green-pin-th.png'
-                }))
-            })
+            source: create_clustersource(50, iconFeatures_soft),
+            style: create_layerstyle('light-green-pin-th.png'),
+            visible: false
         });
 
         var layer02 = new ol.layer.Vector({
             // Hard vibrations layer
-            source: new ol.source.Vector({
-                features: iconFeatures_hard
-            }),
-            style: new ol.style.Style({
-                image: new ol.style.Icon(({
-                    anchor: [0.5, 99], 
-                    anchorXUnits: 'fraction',
-                    anchorYUnits: 'pixels',
-                    opacity: 0.8,
-                    src: 'red-pin-th.png'
-                }))
-            })
+            source: create_clustersource(50, iconFeatures_hard),
+            style: create_layerstyle('red-pin-th.png'),
+            visible: false
         });
 
         var layer03 = new ol.layer.Vector({
             // Timer layer
-            source: new ol.source.Vector({
-                features: iconFeatures_time
-            }),
-            style: new ol.style.Style({
-                image: new ol.style.Icon(({
-                    anchor: [0.5, 99],
-                    anchorXUnits: 'fraction',
-                    anchorYUnits: 'pixels',
-                    opacity: 0.8,
-                    src: 'semi-blue-pin-th.png'
-                }))
-            }),
-            label: 'test'
+            source: create_clustersource(50, iconFeatures_time),
+            style: create_layerstyle('semi-blue-pin-th.png'),
         });
 
         function init() {
@@ -110,11 +103,11 @@
 <body onload="init()">
 <div id="map" class="map"></div>
 <label>
-    <input type="checkbox" onclick='toggleHandler(this, layer01);' checked>
+    <input type="checkbox" onclick='toggleHandler(this, layer01);'>
     Toggle soft markers
 </label>
 <label>
-    <input type="checkbox" onclick='toggleHandler(this, layer02);' checked>
+    <input type="checkbox" onclick='toggleHandler(this, layer02);'>
     Toggle hard markers
 </label>
 <label>
