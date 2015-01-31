@@ -8,11 +8,25 @@
             height: 100%;
             width: 100%;
         }
+        #control-box {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            padding: 2px 10px;
+            background-color: #fff;
+        }
     </style>
     <script src="ol.js" type="text/javascript"></script>
     <script src="data.js" type="text/javascript"></script>
     <script type="text/javascript">
+        // Use clustering or not - breaks the feature attributes!
+        use_clustering = false;
+
+        // If clustering is on, what radius is used to cluster features
+        cluster_distance = 50;
+
         function create_layerstyle(marker_png) {
+            // Create layer styles with different marker images
             var style = new ol.style.Style({
                 image: new ol.style.Icon(({
                     anchor: [0.5, 99], // middle centered, above the point
@@ -25,13 +39,22 @@
             return style;
         }
 
-        function create_clustersource(distance, features) {
-            return new ol.source.Cluster({
-                distance: distance,
-                source: new ol.source.Vector({
-                    features: features
-                })
-            })
+        function create_layersource(features) {
+            // Decide, if you want to display all features or if a cluster
+            // should be created.
+            // TODO: Cluster features lose attributes like 'seq'?
+            if (use_clustering) {
+                return new ol.source.Cluster({
+                    distance: cluster_distance,
+                    source: new ol.source.Vector({
+                        features: features
+                    })
+                });
+            } else {
+                return new ol.source.Vector({ 
+                    features:  features 
+                });
+            }
         }
 
         var iconFeatures_soft = [];
@@ -44,7 +67,9 @@
                 geometry: new ol.geom.Point(ol.proj.transform(
                            [point.lon, point.lat],
                            'EPSG:4326', 'EPSG:900913')),
-                name: point.seq
+                seq: point.seq,
+                gps: point.lon + "," + point.lat,
+                type: point.vibration_type
             });
 
             // Sort the features by vibration_type
@@ -60,22 +85,22 @@
 
         var layer01 = new ol.layer.Vector({
             // Soft vibrations layer
-            source: create_clustersource(50, iconFeatures_soft),
+            source: create_layersource(iconFeatures_soft),
             style: create_layerstyle('light-green-pin-th.png'),
             visible: false
         });
 
         var layer02 = new ol.layer.Vector({
             // Hard vibrations layer
-            source: create_clustersource(50, iconFeatures_hard),
+            source: create_layersource(iconFeatures_hard),
             style: create_layerstyle('red-pin-th.png'),
             visible: false
         });
 
         var layer03 = new ol.layer.Vector({
             // Timer layer
-            source: create_clustersource(50, iconFeatures_time),
-            style: create_layerstyle('semi-blue-pin-th.png'),
+            source: create_layersource(iconFeatures_time),
+            style: create_layerstyle('semi-blue-pin-th.png')
         });
 
         function init() {
@@ -95,6 +120,17 @@
                     zoom: 14
                 })
             });
+
+            map.on('click', function(e) {
+                var feature = map.forEachFeatureAtPixel(e.pixel, function(feature, layer) {
+                    return feature;
+                });
+                
+                if (feature) {
+                    var infobox = document.getElementById("infobox");
+                    infobox.textContent = "Seq: " + feature.get('seq') + ", coords: " + feature.get('gps') + ", type: " + feature.get('type');
+                }
+            });
         }
     </script>
     <title>Bike vibrations in Dresden</title>
@@ -102,18 +138,24 @@
 
 <body onload="init()">
 <div id="map" class="map"></div>
-<label>
-    <input type="checkbox" onclick='toggleHandler(this, layer01);'>
-    Toggle soft markers
-</label>
-<label>
-    <input type="checkbox" onclick='toggleHandler(this, layer02);'>
-    Toggle hard markers
-</label>
-<label>
-    <input type="checkbox" onclick='toggleHandler(this, layer03);' checked>
-    Toggle timer markers
-</label>
+<div id="control-box">
+    Info: 
+    <span id="infobox">&nbsp;</span>
+    <div id="switches">
+        <label>
+            <input type="checkbox" onclick='toggleHandler(this, layer01);'>
+            Toggle soft markers
+        </label>
+        <label>
+            <input type="checkbox" onclick='toggleHandler(this, layer02);'>
+            Toggle hard markers
+        </label>
+        <label>
+            <input type="checkbox" onclick='toggleHandler(this, layer03);' checked>
+            Toggle timer markers
+        </label>
+    </div>
+</div>
 <script type="text/javascript">
     function toggleHandler(elem, layer) {
         if (elem.checked) {
