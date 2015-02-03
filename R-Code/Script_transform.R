@@ -59,23 +59,35 @@ agg_vib <- as.data.table(agg_vib)
 agg_vib <- agg_vib[, list(sum(X4)), by=list(X1,X2)]
 
 #Create Vibration Event polygon
-x <- nrow(agg_vib)
-pathes_vib <- list()
-se_vib <- list()
-amoun <-list()
-for(i in 1:x){
-  nam <- paste("path_sg ", i, sep = "")
-  coords <- cbind(c(agg_vib$X1[i],agg_vib$X1[i+1]),c(agg_vib$X2[i],agg_vib$X2[i+1]))
-  temp_line <-Line(coords)
-  pathes_vib <- c(pathes_vib,temp_line)
-  all_vib <- Lines(pathes_vib,ID="path_sq ")
-  se_vib <- c(se_vib, paste(nam))
-  amoun <- c(amoun,agg_vib$V1[i] )
-}
-se_vib <-data.frame(rbind(se_vib,amoun), row.names = c("path_sq ","amount "))
-all_vib <- SpatialLines(list(all_vib), proj4string = CRS("+proj=longlat +datum=WGS84 +ellps=WGS84"))
-path_vib = SpatialLinesDataFrame(all_vib, se_vib, match.ID = TRUE)
-writeOGR(path_vib, dsn="path_vib.kml", layer= "path_vibration", driver="KML", dataset_options=c("NameField=name"))
+d <- data.frame(x=agg_vib$X1, y=agg_vib$X2, id = 1:213)
+coordinates(d) <- ~x+y
+frame_vib <- lapply(split(d, d$id), function(x) Lines(list(Line(coordinates(x))), x$id[1L]))
+lines <- SpatialLines(frame_vib)
+data <- data.frame(id = unique(d$id))
+rownames(data) <- data$id
+l <- SpatialLinesDataFrame(lines, data)
+proj4string(l)=CRS("+proj=longlat +datum=WGS84 +ellps=WGS84")
+writeOGR(l, dsn="l.kml", layer= "path_vibration", driver="GeoJSON", dataset_options=c("NameField=name"))
+
+
+#previous code
+# x <- nrow(agg_vib)
+# pathes_vib <- list()
+# se_vib <- list()
+# amoun <-list()
+# for(i in 1:x){
+#   nam <- paste("path_sg ", i, sep = "")
+#   coords <- cbind(c(agg_vib$X1[i],agg_vib$X1[i+1]),c(agg_vib$X2[i],agg_vib$X2[i+1]))
+#   temp_line <-Line(coords)
+#   pathes_vib <- c(pathes_vib,temp_line)
+#   all_vib <- Lines(pathes_vib,ID="path_sq ")
+#   se_vib <- c(se_vib, paste(nam))
+#   amoun <- c(amoun,agg_vib$V1[i] )
+# }
+# se_vib <-data.frame(se_vib, row.names = c("path_sq "))
+# all_vib <- SpatialLines(list(all_vib), proj4string = CRS("+proj=longlat +datum=WGS84 +ellps=WGS84"))
+# path_vib = SpatialLinesDataFrame(all_vib, se_vib, match.ID = TRUE)
+# writeOGR(path_vib, dsn="path_vib.kml", layer= "path_vibration", driver="KML", dataset_options=c("NameField=name"))
 
 #writeOGR(path_vib, dsn="path_vib.geojson", "path", driver="GeoJSON")
 
