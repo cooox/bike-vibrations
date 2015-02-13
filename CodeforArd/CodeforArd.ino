@@ -144,15 +144,14 @@ void setup()
     return;
   }
   Serial.println("+initialization done.");
-
-
-  //check if data.txt already exists from previous tours; if so, delete it
-  if (SD.exists("data.txt")) {
-    SD.remove("data.txt");
-  }
+  
+  String data_file = "data_";
+  data_file.concat(millis());
+  char data_file_array[data_file.length()];
+  data_file.toCharArray(data_file_array, data_file.length());
   
   //(re)create and open file to write in
-  myFile = SD.open("data.txt", FILE_WRITE);
+  myFile = SD.open(data_file_array, FILE_WRITE);
   
   //GPS block--------------------------------------------------------------------
   // connect at 115200 so we can read the GPS fast enough and echo without dropping chars
