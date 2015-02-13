@@ -4,6 +4,7 @@ library(DBI)
 library(sp)
 library(maptools)
 library(rgdal)
+library(data.table)
 
 setwd("D:/Users/Georg/Documents/R_workspace/Vibration/")
 
@@ -23,20 +24,25 @@ b_box <- bbox(path_data)
 path_data_filter <-remove.duplicates(path_data)
 #remove.duplicates(vibration_data)
 
-#create path polygon
+#create path polygon and export
 x <- nrow(path_data_filter)
 pathes <- list()
+se <- list()
 for(i in 1:x){
+  nam <- paste("path_sg ", i, sep = "")
   coords <- matrix(cbind(c(path_data_filter$lon[i],path_data_filter$lon[i+1]),c(path_data_filter$lat[i],path_data_filter$lat[i+1])), nrow =2)
   temp_line <-Line(coords)
-  pathes <- c(pathes, temp_line)
+  pathes <- c(pathes,temp_line)
+  all_path <- Lines(pathes,ID="path_sq ")
+  se <- c(se, paste(nam))
 }
-all_path = Lines(pathes,ID="path")
-all_path = SpatialLines(list(all_path), proj4string = CRS("+proj=longlat +datum=WGS84 +ellps=WGS84"))
-path = SpatialLinesDataFrame(all_path, data.frame(Z = c("Road"), row.names = c("lines")), match.ID = FALSE)
-#all_path = SpatialLines(pathes,ID="a")
+se <-data.frame(se, row.names = c("path_sq "))
+all_path <- SpatialLines(list(all_path), proj4string = CRS("+proj=longlat +datum=WGS84 +ellps=WGS84"))
+path = SpatialLinesDataFrame(all_path, se, match.ID = TRUE)
+writeOGR(path, dsn="path.kml", layer= "path", driver="KML")
 
-#Create martix vibrationEvents
+
+#Create martix vibration Events
 vibration_st <- matrix(c(vibration_data$lon,vibration_data$lat,vibration_data$runtime,(sqrt(vibration_data$imu_x^2+vibration_data$imu_y^2+vibration_data$imu_z^2)),vibration_data$vibration_type),ncol=5)
 
 #Test strong Sensor
@@ -46,11 +52,43 @@ length(sens_test)
 #Filter: over 2G, under 5G
 vibration_st <- vibration_st[which(vibration_st[,4]>=4), ]
 vibration_st <- vibration_st[which(vibration_st[,4]<=25), ]
-#Eliminate duplicate Events
-x <- nrow(vibration_st)
-i=1
-for(i in 1:(x-1)){
-vibration_st <- vibration_st[which((vibration_st[i,3]-vibration_st[(i+1),3])>=100), ]
-}
-#Snap Vibration to path
+
+#Sum Data from identical coordinates
+agg_vib <- data.frame(vibration_st)
+agg_vib <- as.data.table(agg_vib)
+agg_vib <- agg_vib[, list(sum(X4)), by=list(X1,X2)]
+
+#Create Vibration Event polygon
+d <- data.frame(x=agg_vib$X1, y=agg_vib$X2, id = 1:213)
+coordinates(d) <- ~x+y
+frame_vib <- lapply(split(d, d$id), function(x) Lines(list(Line(coordinates(x))), x$id[1L]))
+lines <- SpatialLines(frame_vib)
+data <- data.frame(id = unique(d$id))
+rownames(data) <- data$id
+l <- SpatialLinesDataFrame(lines, data)
+proj4string(l)=CRS("+proj=longlat +datum=WGS84 +ellps=WGS84")
+writeOGR(l, dsn="l.kml", layer= "path_vibration", driver="GeoJSON", dataset_options=c("NameField=name"))
+
+
+#previous code
+# x <- nrow(agg_vib)
+# pathes_vib <- list()
+# se_vib <- list()
+# amoun <-list()
+# for(i in 1:x){
+#   nam <- paste("path_sg ", i, sep = "")
+#   coords <- cbind(c(agg_vib$X1[i],agg_vib$X1[i+1]),c(agg_vib$X2[i],agg_vib$X2[i+1]))
+#   temp_line <-Line(coords)
+#   pathes_vib <- c(pathes_vib,temp_line)
+#   all_vib <- Lines(pathes_vib,ID="path_sq ")
+#   se_vib <- c(se_vib, paste(nam))
+#   amoun <- c(amoun,agg_vib$V1[i] )
+# }
+# se_vib <-data.frame(se_vib, row.names = c("path_sq "))
+# all_vib <- SpatialLines(list(all_vib), proj4string = CRS("+proj=longlat +datum=WGS84 +ellps=WGS84"))
+# path_vib = SpatialLinesDataFrame(all_vib, se_vib, match.ID = TRUE)
+# writeOGR(path_vib, dsn="path_vib.kml", layer= "path_vibration", driver="KML", dataset_options=c("NameField=name"))
+
+#writeOGR(path_vib, dsn="path_vib.geojson", "path", driver="GeoJSON")
+
 #snapPointsToLines(vibration_st, pathes, maxDist = NA, withAttrs = TRUE, idField=NA)
