@@ -50,9 +50,6 @@ File myFile;
 const int vibsens_high1 = 6; //PIN empfindlicher Sensor, 18010, kurz
 const int vibsens_high2 = 2;
 const int vibsens_high3 = 0;
-const int vibsens_low1 = 5;  //PIN weniger empfindlicher Sensor, 18030, lang
-const int vibsens_low2 = 4;
-const int vibsens_low3 = 3;
 
 // change this to match your SD shield or module;
 //     Adafruit SD shields and modules: pin 10
@@ -181,9 +178,6 @@ void setup()
   pinMode(vibsens_high1, INPUT_PULLUP);
   pinMode(vibsens_high2, INPUT_PULLUP);
   pinMode(vibsens_high3, INPUT_PULLUP);
-  pinMode(vibsens_low1, INPUT_PULLUP);
-  pinMode(vibsens_low2, INPUT_PULLUP);
-  pinMode(vibsens_low3, INPUT_PULLUP);
 
   /* Initialise the sensor */
   if(!accel.begin()) {
@@ -196,7 +190,6 @@ void setup()
   displaySensorDetails();
   
   timer2 = 0;
-
 }
 
 
@@ -218,9 +211,7 @@ void loop() {
 
     if (!GPS.parse(GPS.lastNMEA()))   // this also sets the newNMEAreceived() flag to false
       return;  // we can fail to parse a sentence in which case we should just wait for another
-
-  }
-
+ }
 
   /*
    * Delay the first run for some time, so GPS gets ready
@@ -231,8 +222,7 @@ void loop() {
     delay(5000);
   }
   
-
-  /*
+ /*
    * Sensor readings and file input
    */
   sensors_event_t event; 
@@ -281,33 +271,6 @@ void loop() {
     String fileInput = fileInputPreamble();
     Serial.println("schwache Vibration3");
     fileInput.concat(",3");
-    
-    myFile.println(fileInput);
-    Serial.print(fileInput);
-  }
-  
-  if (digitalRead(vibsens_low1) == LOW){
-    String fileInput = fileInputPreamble();
-    Serial.println("starke Vibration1");
-    fileInput.concat(",4");
-    
-    myFile.println(fileInput);
-    Serial.print(fileInput);
-  }
-  
-  if (digitalRead(vibsens_low2) == LOW){
-    String fileInput = fileInputPreamble();
-    Serial.println("starke Vibration2");
-    fileInput.concat(",5");
-    
-    myFile.println(fileInput);
-    Serial.print(fileInput);
-  }
-  
-  if (digitalRead(vibsens_low3) == LOW){
-    String fileInput = fileInputPreamble();
-    Serial.println("starke Vibration3");
-    fileInput.concat(",6");
     
     myFile.println(fileInput);
     Serial.print(fileInput);
