@@ -1,0 +1,4107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="data_wgs84" id="data_wgs84">
+	<SimpleField name="seq" type="int"></SimpleField>
+	<SimpleField name="imu_x" type="float"></SimpleField>
+	<SimpleField name="imu_y" type="float"></SimpleField>
+	<SimpleField name="imu_z" type="float"></SimpleField>
+	<SimpleField name="day" type="int"></SimpleField>
+	<SimpleField name="month" type="int"></SimpleField>
+	<SimpleField name="year" type="int"></SimpleField>
+	<SimpleField name="hours" type="int"></SimpleField>
+	<SimpleField name="minutes" type="int"></SimpleField>
+	<SimpleField name="seconds" type="int"></SimpleField>
+	<SimpleField name="runtime" type="int"></SimpleField>
+	<SimpleField name="vibration_type" type="int"></SimpleField>
+	<SimpleField name="nearest_line_id" type="string"></SimpleField>
+</Schema>
+<Folder><name>data_wgs84</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">206</SimpleData>
+		<SimpleData name="imu_x">-2.47</SimpleData>
+		<SimpleData name="imu_y">-9.49</SimpleData>
+		<SimpleData name="imu_z">-2.47</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">27</SimpleData>
+		<SimpleData name="runtime">121508</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">91</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747137311771608,51.063391942850537</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">207</SimpleData>
+		<SimpleData name="imu_x">-3.02</SimpleData>
+		<SimpleData name="imu_y">1.18</SimpleData>
+		<SimpleData name="imu_z">-3.02</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">27</SimpleData>
+		<SimpleData name="runtime">121723</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">91</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747137311771608,51.063391942850537</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">208</SimpleData>
+		<SimpleData name="imu_x">-4.39</SimpleData>
+		<SimpleData name="imu_y">-0.86</SimpleData>
+		<SimpleData name="imu_z">-4.39</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">27</SimpleData>
+		<SimpleData name="runtime">121821</SimpleData>
+		<SimpleData name="vibration_type">3</SimpleData>
+		<SimpleData name="nearest_line_id">91</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747137311771608,51.063391942850537</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">209</SimpleData>
+		<SimpleData name="imu_x">-0.12</SimpleData>
+		<SimpleData name="imu_y">-2.08</SimpleData>
+		<SimpleData name="imu_z">-0.12</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">27</SimpleData>
+		<SimpleData name="runtime">122144</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">91</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747137311771608,51.063391942850537</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">210</SimpleData>
+		<SimpleData name="imu_x">-2.86</SimpleData>
+		<SimpleData name="imu_y">-1.37</SimpleData>
+		<SimpleData name="imu_z">-2.86</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">27</SimpleData>
+		<SimpleData name="runtime">122236</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">91</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747137311771608,51.063391942850537</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">211</SimpleData>
+		<SimpleData name="imu_x">-1.88</SimpleData>
+		<SimpleData name="imu_y">-5.61</SimpleData>
+		<SimpleData name="imu_z">-1.88</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">29</SimpleData>
+		<SimpleData name="runtime">123256</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">91</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747137311771608,51.063391942850537</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">212</SimpleData>
+		<SimpleData name="imu_x">-2.51</SimpleData>
+		<SimpleData name="imu_y">-0.27</SimpleData>
+		<SimpleData name="imu_z">-2.51</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">29</SimpleData>
+		<SimpleData name="runtime">123340</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">91</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747137311771608,51.063391942850537</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">213</SimpleData>
+		<SimpleData name="imu_x">-2.71</SimpleData>
+		<SimpleData name="imu_y">-3.73</SimpleData>
+		<SimpleData name="imu_z">-2.71</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">29</SimpleData>
+		<SimpleData name="runtime">123437</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">91</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747137311771608,51.063391942850537</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">214</SimpleData>
+		<SimpleData name="imu_x">-5.26</SimpleData>
+		<SimpleData name="imu_y">-5.57</SimpleData>
+		<SimpleData name="imu_z">-5.26</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">29</SimpleData>
+		<SimpleData name="runtime">123632</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">91</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747137311771608,51.063391942850537</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">215</SimpleData>
+		<SimpleData name="imu_x">-0.63</SimpleData>
+		<SimpleData name="imu_y">-7.22</SimpleData>
+		<SimpleData name="imu_z">-0.63</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">29</SimpleData>
+		<SimpleData name="runtime">123772</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">91</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747137311771608,51.063391942850537</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">216</SimpleData>
+		<SimpleData name="imu_x">-8.71</SimpleData>
+		<SimpleData name="imu_y">2.24</SimpleData>
+		<SimpleData name="imu_z">-8.71</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">29</SimpleData>
+		<SimpleData name="runtime">124822</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">91</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747137311771608,51.063391942850537</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">217</SimpleData>
+		<SimpleData name="imu_x">-1.41</SimpleData>
+		<SimpleData name="imu_y">-4.08</SimpleData>
+		<SimpleData name="imu_z">-1.41</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">29</SimpleData>
+		<SimpleData name="runtime">124892</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">91</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747137311771608,51.063391942850537</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">218</SimpleData>
+		<SimpleData name="imu_x">-1.26</SimpleData>
+		<SimpleData name="imu_y">-2.28</SimpleData>
+		<SimpleData name="imu_z">-1.26</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">31</SimpleData>
+		<SimpleData name="runtime">125166</SimpleData>
+		<SimpleData name="vibration_type">3</SimpleData>
+		<SimpleData name="nearest_line_id">321</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747024479746791,51.063571291894171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">219</SimpleData>
+		<SimpleData name="imu_x">-0.75</SimpleData>
+		<SimpleData name="imu_y">-0.9</SimpleData>
+		<SimpleData name="imu_z">-0.75</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">31</SimpleData>
+		<SimpleData name="runtime">125608</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">321</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747024479746791,51.063571291894171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">220</SimpleData>
+		<SimpleData name="imu_x">-1.37</SimpleData>
+		<SimpleData name="imu_y">-0.43</SimpleData>
+		<SimpleData name="imu_z">-1.37</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">31</SimpleData>
+		<SimpleData name="runtime">126427</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">321</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747024479746791,51.063571291894171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">221</SimpleData>
+		<SimpleData name="imu_x">-1.41</SimpleData>
+		<SimpleData name="imu_y">-0.12</SimpleData>
+		<SimpleData name="imu_z">-1.41</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">31</SimpleData>
+		<SimpleData name="runtime">126724</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">321</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747024479746791,51.063571291894171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">222</SimpleData>
+		<SimpleData name="imu_x">-1.26</SimpleData>
+		<SimpleData name="imu_y">-0.43</SimpleData>
+		<SimpleData name="imu_z">-1.26</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">37</SimpleData>
+		<SimpleData name="runtime">131725</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">321</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747024479746791,51.063571291894171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">223</SimpleData>
+		<SimpleData name="imu_x">-1.49</SimpleData>
+		<SimpleData name="imu_y">-1.22</SimpleData>
+		<SimpleData name="imu_z">-1.49</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">41</SimpleData>
+		<SimpleData name="runtime">136726</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">321</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747024479746791,51.063571291894171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">224</SimpleData>
+		<SimpleData name="imu_x">-1.41</SimpleData>
+		<SimpleData name="imu_y">-0.86</SimpleData>
+		<SimpleData name="imu_z">-1.41</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">47</SimpleData>
+		<SimpleData name="runtime">141728</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">321</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747024479746791,51.063571291894171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">225</SimpleData>
+		<SimpleData name="imu_x">-1.29</SimpleData>
+		<SimpleData name="imu_y">-3.88</SimpleData>
+		<SimpleData name="imu_z">-1.29</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">51</SimpleData>
+		<SimpleData name="runtime">146211</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">321</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747024479746791,51.063571291894171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">226</SimpleData>
+		<SimpleData name="imu_x">-5.14</SimpleData>
+		<SimpleData name="imu_y">-6.08</SimpleData>
+		<SimpleData name="imu_z">-5.14</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">51</SimpleData>
+		<SimpleData name="runtime">146608</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">321</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747024479746791,51.063571291894171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">227</SimpleData>
+		<SimpleData name="imu_x">-2.31</SimpleData>
+		<SimpleData name="imu_y">0.82</SimpleData>
+		<SimpleData name="imu_z">-2.31</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">51</SimpleData>
+		<SimpleData name="runtime">146729</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">321</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747024479746791,51.063571291894171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">228</SimpleData>
+		<SimpleData name="imu_x">3.45</SimpleData>
+		<SimpleData name="imu_y">-18.71</SimpleData>
+		<SimpleData name="imu_z">3.45</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">55</SimpleData>
+		<SimpleData name="runtime">149540</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">321</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747024479746791,51.063571291894171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">229</SimpleData>
+		<SimpleData name="imu_x">-1.29</SimpleData>
+		<SimpleData name="imu_y">-2.98</SimpleData>
+		<SimpleData name="imu_z">-1.29</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">55</SimpleData>
+		<SimpleData name="runtime">150227</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">321</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747024479746791,51.063571291894171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">230</SimpleData>
+		<SimpleData name="imu_x">-3.14</SimpleData>
+		<SimpleData name="imu_y">-4.82</SimpleData>
+		<SimpleData name="imu_z">-3.14</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">55</SimpleData>
+		<SimpleData name="runtime">150296</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">321</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747024479746791,51.063571291894171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">231</SimpleData>
+		<SimpleData name="imu_x">0.59</SimpleData>
+		<SimpleData name="imu_y">-0.98</SimpleData>
+		<SimpleData name="imu_z">0.59</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">55</SimpleData>
+		<SimpleData name="runtime">150589</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">321</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747024479746791,51.063571291894171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">232</SimpleData>
+		<SimpleData name="imu_x">1.53</SimpleData>
+		<SimpleData name="imu_y">-3.77</SimpleData>
+		<SimpleData name="imu_z">1.53</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">55</SimpleData>
+		<SimpleData name="runtime">150662</SimpleData>
+		<SimpleData name="vibration_type">3</SimpleData>
+		<SimpleData name="nearest_line_id">321</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747024479746791,51.063571291894171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">233</SimpleData>
+		<SimpleData name="imu_x">-3.88</SimpleData>
+		<SimpleData name="imu_y">-0.35</SimpleData>
+		<SimpleData name="imu_z">-3.88</SimpleData>
+		<SimpleData name="day">2</SimpleData>
+		<SimpleData name="month">81</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">57</SimpleData>
+		<SimpleData name="runtime">151069</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">134</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.7468393,51.0633545</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">234</SimpleData>
+		<SimpleData name="imu_x">-19.69</SimpleData>
+		<SimpleData name="imu_y">-3.88</SimpleData>
+		<SimpleData name="imu_z">-19.69</SimpleData>
+		<SimpleData name="day">2</SimpleData>
+		<SimpleData name="month">81</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">57</SimpleData>
+		<SimpleData name="runtime">151130</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">134</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.7468393,51.0633545</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">235</SimpleData>
+		<SimpleData name="imu_x">5.37</SimpleData>
+		<SimpleData name="imu_y">7.1</SimpleData>
+		<SimpleData name="imu_z">5.37</SimpleData>
+		<SimpleData name="day">2</SimpleData>
+		<SimpleData name="month">81</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">57</SimpleData>
+		<SimpleData name="runtime">151298</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">134</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.7468393,51.0633545</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">236</SimpleData>
+		<SimpleData name="imu_x">-3.22</SimpleData>
+		<SimpleData name="imu_y">-10.04</SimpleData>
+		<SimpleData name="imu_z">-3.22</SimpleData>
+		<SimpleData name="day">2</SimpleData>
+		<SimpleData name="month">81</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">57</SimpleData>
+		<SimpleData name="runtime">151404</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">134</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.7468393,51.0633545</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">237</SimpleData>
+		<SimpleData name="imu_x">-8.75</SimpleData>
+		<SimpleData name="imu_y">-3.14</SimpleData>
+		<SimpleData name="imu_z">-8.75</SimpleData>
+		<SimpleData name="day">2</SimpleData>
+		<SimpleData name="month">81</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">57</SimpleData>
+		<SimpleData name="runtime">151519</SimpleData>
+		<SimpleData name="vibration_type">3</SimpleData>
+		<SimpleData name="nearest_line_id">134</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.7468393,51.0633545</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">238</SimpleData>
+		<SimpleData name="imu_x">-3.37</SimpleData>
+		<SimpleData name="imu_y">0</SimpleData>
+		<SimpleData name="imu_z">-3.37</SimpleData>
+		<SimpleData name="day">2</SimpleData>
+		<SimpleData name="month">81</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">57</SimpleData>
+		<SimpleData name="runtime">151589</SimpleData>
+		<SimpleData name="vibration_type">3</SimpleData>
+		<SimpleData name="nearest_line_id">134</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.7468393,51.0633545</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">239</SimpleData>
+		<SimpleData name="imu_x">-1.57</SimpleData>
+		<SimpleData name="imu_y">0.04</SimpleData>
+		<SimpleData name="imu_z">-1.57</SimpleData>
+		<SimpleData name="day">2</SimpleData>
+		<SimpleData name="month">81</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">57</SimpleData>
+		<SimpleData name="runtime">151729</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">134</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.7468393,51.0633545</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">240</SimpleData>
+		<SimpleData name="imu_x">-7.92</SimpleData>
+		<SimpleData name="imu_y">-4.28</SimpleData>
+		<SimpleData name="imu_z">-7.92</SimpleData>
+		<SimpleData name="day">2</SimpleData>
+		<SimpleData name="month">81</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">57</SimpleData>
+		<SimpleData name="runtime">151880</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">134</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.7468393,51.0633545</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">241</SimpleData>
+		<SimpleData name="imu_x">0.82</SimpleData>
+		<SimpleData name="imu_y">-2.94</SimpleData>
+		<SimpleData name="imu_z">0.82</SimpleData>
+		<SimpleData name="day">2</SimpleData>
+		<SimpleData name="month">81</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">57</SimpleData>
+		<SimpleData name="runtime">152158</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">134</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.7468393,51.0633545</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">242</SimpleData>
+		<SimpleData name="imu_x">-0.94</SimpleData>
+		<SimpleData name="imu_y">-0.04</SimpleData>
+		<SimpleData name="imu_z">-0.94</SimpleData>
+		<SimpleData name="day">2</SimpleData>
+		<SimpleData name="month">81</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">57</SimpleData>
+		<SimpleData name="runtime">152734</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">134</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.7468393,51.0633545</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">243</SimpleData>
+		<SimpleData name="imu_x">1.73</SimpleData>
+		<SimpleData name="imu_y">9.34</SimpleData>
+		<SimpleData name="imu_z">1.73</SimpleData>
+		<SimpleData name="day">2</SimpleData>
+		<SimpleData name="month">81</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">23</SimpleData>
+		<SimpleData name="seconds">57</SimpleData>
+		<SimpleData name="runtime">152914</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">134</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.7468393,51.0633545</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">786</SimpleData>
+		<SimpleData name="imu_x">1.84</SimpleData>
+		<SimpleData name="imu_y">-1.69</SimpleData>
+		<SimpleData name="imu_z">1.84</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">28</SimpleData>
+		<SimpleData name="seconds">17</SimpleData>
+		<SimpleData name="runtime">411815</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">63</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.746329136602764,51.055867782495987</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">787</SimpleData>
+		<SimpleData name="imu_x">-2.71</SimpleData>
+		<SimpleData name="imu_y">-3.02</SimpleData>
+		<SimpleData name="imu_z">-2.71</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">28</SimpleData>
+		<SimpleData name="seconds">17</SimpleData>
+		<SimpleData name="runtime">412566</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">63</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.746329136602764,51.055867782495987</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">788</SimpleData>
+		<SimpleData name="imu_x">-13.81</SimpleData>
+		<SimpleData name="imu_y">2.82</SimpleData>
+		<SimpleData name="imu_z">-13.81</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">28</SimpleData>
+		<SimpleData name="seconds">19</SimpleData>
+		<SimpleData name="runtime">414282</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">63</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.746329136602764,51.055867782495987</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">789</SimpleData>
+		<SimpleData name="imu_x">-2.43</SimpleData>
+		<SimpleData name="imu_y">-1.29</SimpleData>
+		<SimpleData name="imu_z">-2.43</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">28</SimpleData>
+		<SimpleData name="seconds">19</SimpleData>
+		<SimpleData name="runtime">415120</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">63</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.746329136602764,51.055867782495987</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">790</SimpleData>
+		<SimpleData name="imu_x">-2.94</SimpleData>
+		<SimpleData name="imu_y">16.04</SimpleData>
+		<SimpleData name="imu_z">-2.94</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">28</SimpleData>
+		<SimpleData name="seconds">19</SimpleData>
+		<SimpleData name="runtime">415527</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">63</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.746329136602764,51.055867782495987</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">958</SimpleData>
+		<SimpleData name="imu_x">-11.3</SimpleData>
+		<SimpleData name="imu_y">-1.69</SimpleData>
+		<SimpleData name="imu_z">-11.3</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">29</SimpleData>
+		<SimpleData name="seconds">47</SimpleData>
+		<SimpleData name="runtime">501905</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747170088327859,51.052690586015181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">959</SimpleData>
+		<SimpleData name="imu_x">2.04</SimpleData>
+		<SimpleData name="imu_y">-13.49</SimpleData>
+		<SimpleData name="imu_z">2.04</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">29</SimpleData>
+		<SimpleData name="seconds">47</SimpleData>
+		<SimpleData name="runtime">502069</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747170088327859,51.052690586015181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">960</SimpleData>
+		<SimpleData name="imu_x">-0.2</SimpleData>
+		<SimpleData name="imu_y">-5.1</SimpleData>
+		<SimpleData name="imu_z">-0.2</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">29</SimpleData>
+		<SimpleData name="seconds">47</SimpleData>
+		<SimpleData name="runtime">502228</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747170088327859,51.052690586015181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">961</SimpleData>
+		<SimpleData name="imu_x">-0.2</SimpleData>
+		<SimpleData name="imu_y">-5.1</SimpleData>
+		<SimpleData name="imu_z">-0.2</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">29</SimpleData>
+		<SimpleData name="seconds">47</SimpleData>
+		<SimpleData name="runtime">502250</SimpleData>
+		<SimpleData name="vibration_type">3</SimpleData>
+		<SimpleData name="nearest_line_id">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747170088327859,51.052690586015181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">962</SimpleData>
+		<SimpleData name="imu_x">-3.65</SimpleData>
+		<SimpleData name="imu_y">-4.63</SimpleData>
+		<SimpleData name="imu_z">-3.65</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">29</SimpleData>
+		<SimpleData name="seconds">47</SimpleData>
+		<SimpleData name="runtime">502850</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747170088327859,51.052690586015181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">963</SimpleData>
+		<SimpleData name="imu_x">-2.16</SimpleData>
+		<SimpleData name="imu_y">-3.49</SimpleData>
+		<SimpleData name="imu_z">-2.16</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">29</SimpleData>
+		<SimpleData name="seconds">47</SimpleData>
+		<SimpleData name="runtime">503066</SimpleData>
+		<SimpleData name="vibration_type">3</SimpleData>
+		<SimpleData name="nearest_line_id">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747170088327859,51.052690586015181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">964</SimpleData>
+		<SimpleData name="imu_x">-1.14</SimpleData>
+		<SimpleData name="imu_y">-11.06</SimpleData>
+		<SimpleData name="imu_z">-1.14</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">29</SimpleData>
+		<SimpleData name="seconds">47</SimpleData>
+		<SimpleData name="runtime">503200</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747170088327859,51.052690586015181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">965</SimpleData>
+		<SimpleData name="imu_x">0.43</SimpleData>
+		<SimpleData name="imu_y">-0.67</SimpleData>
+		<SimpleData name="imu_z">0.43</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">29</SimpleData>
+		<SimpleData name="seconds">47</SimpleData>
+		<SimpleData name="runtime">503643</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747170088327859,51.052690586015181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">966</SimpleData>
+		<SimpleData name="imu_x">-1.84</SimpleData>
+		<SimpleData name="imu_y">6.35</SimpleData>
+		<SimpleData name="imu_z">-1.84</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">29</SimpleData>
+		<SimpleData name="seconds">47</SimpleData>
+		<SimpleData name="runtime">503702</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747170088327859,51.052690586015181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">967</SimpleData>
+		<SimpleData name="imu_x">-0.39</SimpleData>
+		<SimpleData name="imu_y">-5.02</SimpleData>
+		<SimpleData name="imu_z">-0.39</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">29</SimpleData>
+		<SimpleData name="seconds">47</SimpleData>
+		<SimpleData name="runtime">503788</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747170088327859,51.052690586015181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">968</SimpleData>
+		<SimpleData name="imu_x">-3.37</SimpleData>
+		<SimpleData name="imu_y">2.47</SimpleData>
+		<SimpleData name="imu_z">-3.37</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">29</SimpleData>
+		<SimpleData name="seconds">49</SimpleData>
+		<SimpleData name="runtime">504331</SimpleData>
+		<SimpleData name="vibration_type">3</SimpleData>
+		<SimpleData name="nearest_line_id">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747170088327859,51.052690586015181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">969</SimpleData>
+		<SimpleData name="imu_x">-0.86</SimpleData>
+		<SimpleData name="imu_y">-4.31</SimpleData>
+		<SimpleData name="imu_z">-0.86</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">29</SimpleData>
+		<SimpleData name="seconds">49</SimpleData>
+		<SimpleData name="runtime">505478</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747170088327859,51.052690586015181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">970</SimpleData>
+		<SimpleData name="imu_x">-2.39</SimpleData>
+		<SimpleData name="imu_y">1.65</SimpleData>
+		<SimpleData name="imu_z">-2.39</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">29</SimpleData>
+		<SimpleData name="seconds">49</SimpleData>
+		<SimpleData name="runtime">505694</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747170088327859,51.052690586015181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">971</SimpleData>
+		<SimpleData name="imu_x">-1.77</SimpleData>
+		<SimpleData name="imu_y">-3.26</SimpleData>
+		<SimpleData name="imu_z">-1.77</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">29</SimpleData>
+		<SimpleData name="seconds">49</SimpleData>
+		<SimpleData name="runtime">505803</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747170088327859,51.052690586015181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">972</SimpleData>
+		<SimpleData name="imu_x">-0.43</SimpleData>
+		<SimpleData name="imu_y">-2.2</SimpleData>
+		<SimpleData name="imu_z">-0.43</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">29</SimpleData>
+		<SimpleData name="seconds">51</SimpleData>
+		<SimpleData name="runtime">505947</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747170088327859,51.052690586015181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">973</SimpleData>
+		<SimpleData name="imu_x">-1.1</SimpleData>
+		<SimpleData name="imu_y">-1.06</SimpleData>
+		<SimpleData name="imu_z">-1.1</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">29</SimpleData>
+		<SimpleData name="seconds">51</SimpleData>
+		<SimpleData name="runtime">506467</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747170088327859,51.052690586015181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">974</SimpleData>
+		<SimpleData name="imu_x">-1.84</SimpleData>
+		<SimpleData name="imu_y">-1.33</SimpleData>
+		<SimpleData name="imu_z">-1.84</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">29</SimpleData>
+		<SimpleData name="seconds">51</SimpleData>
+		<SimpleData name="runtime">506683</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747170088327859,51.052690586015181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">975</SimpleData>
+		<SimpleData name="imu_x">-1.69</SimpleData>
+		<SimpleData name="imu_y">-4.75</SimpleData>
+		<SimpleData name="imu_z">-1.69</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">29</SimpleData>
+		<SimpleData name="seconds">51</SimpleData>
+		<SimpleData name="runtime">506906</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747170088327859,51.052690586015181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">976</SimpleData>
+		<SimpleData name="imu_x">-0.35</SimpleData>
+		<SimpleData name="imu_y">-4.79</SimpleData>
+		<SimpleData name="imu_z">-0.35</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">29</SimpleData>
+		<SimpleData name="seconds">51</SimpleData>
+		<SimpleData name="runtime">506996</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747170088327859,51.052690586015181</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">977</SimpleData>
+		<SimpleData name="imu_x">-1.29</SimpleData>
+		<SimpleData name="imu_y">-3.73</SimpleData>
+		<SimpleData name="imu_z">-1.29</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">29</SimpleData>
+		<SimpleData name="seconds">55</SimpleData>
+		<SimpleData name="runtime">509924</SimpleData>
+		<SimpleData name="vibration_type">3</SimpleData>
+		<SimpleData name="nearest_line_id">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747315446465182,51.052641882981014</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">978</SimpleData>
+		<SimpleData name="imu_x">-1.06</SimpleData>
+		<SimpleData name="imu_y">-3.49</SimpleData>
+		<SimpleData name="imu_z">-1.06</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">29</SimpleData>
+		<SimpleData name="seconds">57</SimpleData>
+		<SimpleData name="runtime">511906</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747352199949177,51.052503597096539</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">979</SimpleData>
+		<SimpleData name="imu_x">-1.37</SimpleData>
+		<SimpleData name="imu_y">-3.61</SimpleData>
+		<SimpleData name="imu_z">-1.37</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">29</SimpleData>
+		<SimpleData name="seconds">57</SimpleData>
+		<SimpleData name="runtime">512335</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747352199949177,51.052503597096539</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">980</SimpleData>
+		<SimpleData name="imu_x">-1.65</SimpleData>
+		<SimpleData name="imu_y">-5.06</SimpleData>
+		<SimpleData name="imu_z">-1.65</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">29</SimpleData>
+		<SimpleData name="seconds">57</SimpleData>
+		<SimpleData name="runtime">512402</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747352199949177,51.052503597096539</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">981</SimpleData>
+		<SimpleData name="imu_x">-9.92</SimpleData>
+		<SimpleData name="imu_y">2.31</SimpleData>
+		<SimpleData name="imu_z">-9.92</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">29</SimpleData>
+		<SimpleData name="seconds">57</SimpleData>
+		<SimpleData name="runtime">512588</SimpleData>
+		<SimpleData name="vibration_type">3</SimpleData>
+		<SimpleData name="nearest_line_id">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747352199949177,51.052503597096539</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">982</SimpleData>
+		<SimpleData name="imu_x">-2.08</SimpleData>
+		<SimpleData name="imu_y">-1.02</SimpleData>
+		<SimpleData name="imu_z">-2.08</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">29</SimpleData>
+		<SimpleData name="seconds">57</SimpleData>
+		<SimpleData name="runtime">512906</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747352199949177,51.052503597096539</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">983</SimpleData>
+		<SimpleData name="imu_x">-1.69</SimpleData>
+		<SimpleData name="imu_y">-1.1</SimpleData>
+		<SimpleData name="imu_z">-1.69</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">30</SimpleData>
+		<SimpleData name="seconds">1</SimpleData>
+		<SimpleData name="runtime">516908</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">174</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.747352199949177,51.052503597096539</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1041</SimpleData>
+		<SimpleData name="imu_x">-2.24</SimpleData>
+		<SimpleData name="imu_y">-1.77</SimpleData>
+		<SimpleData name="imu_z">-2.24</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">31</SimpleData>
+		<SimpleData name="seconds">10</SimpleData>
+		<SimpleData name="runtime">585348</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">189</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.744999857242995,51.049506260914335</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1042</SimpleData>
+		<SimpleData name="imu_x">5.37</SimpleData>
+		<SimpleData name="imu_y">17.34</SimpleData>
+		<SimpleData name="imu_z">5.37</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">31</SimpleData>
+		<SimpleData name="seconds">12</SimpleData>
+		<SimpleData name="runtime">586940</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">189</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.7448393,51.0495026</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1043</SimpleData>
+		<SimpleData name="imu_x">-6.67</SimpleData>
+		<SimpleData name="imu_y">-15.65</SimpleData>
+		<SimpleData name="imu_z">-6.67</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">31</SimpleData>
+		<SimpleData name="seconds">12</SimpleData>
+		<SimpleData name="runtime">587875</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">189</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.7448393,51.0495026</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1261</SimpleData>
+		<SimpleData name="imu_x">-1.29</SimpleData>
+		<SimpleData name="imu_y">1.26</SimpleData>
+		<SimpleData name="imu_z">-1.29</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">35</SimpleData>
+		<SimpleData name="seconds">42</SimpleData>
+		<SimpleData name="runtime">857062</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">54</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.734192322351667,51.040397897064373</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1289</SimpleData>
+		<SimpleData name="imu_x">3.45</SimpleData>
+		<SimpleData name="imu_y">-7.69</SimpleData>
+		<SimpleData name="imu_z">3.45</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">12</SimpleData>
+		<SimpleData name="runtime">886338</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.733173233781278,51.03899046122271</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1290</SimpleData>
+		<SimpleData name="imu_x">-1.92</SimpleData>
+		<SimpleData name="imu_y">2.24</SimpleData>
+		<SimpleData name="imu_z">-1.92</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">12</SimpleData>
+		<SimpleData name="runtime">886406</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.733173233781278,51.03899046122271</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1291</SimpleData>
+		<SimpleData name="imu_x">-2.86</SimpleData>
+		<SimpleData name="imu_y">-3.88</SimpleData>
+		<SimpleData name="imu_z">-2.86</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">12</SimpleData>
+		<SimpleData name="runtime">886497</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.733173233781278,51.03899046122271</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1292</SimpleData>
+		<SimpleData name="imu_x">0.35</SimpleData>
+		<SimpleData name="imu_y">2.63</SimpleData>
+		<SimpleData name="imu_z">0.35</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">12</SimpleData>
+		<SimpleData name="runtime">887070</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.733173233781278,51.03899046122271</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1293</SimpleData>
+		<SimpleData name="imu_x">-4.08</SimpleData>
+		<SimpleData name="imu_y">-3.8</SimpleData>
+		<SimpleData name="imu_z">-4.08</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">12</SimpleData>
+		<SimpleData name="runtime">887174</SimpleData>
+		<SimpleData name="vibration_type">3</SimpleData>
+		<SimpleData name="nearest_line_id">71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.733173233781278,51.03899046122271</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1294</SimpleData>
+		<SimpleData name="imu_x">0.78</SimpleData>
+		<SimpleData name="imu_y">6.28</SimpleData>
+		<SimpleData name="imu_z">0.78</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">12</SimpleData>
+		<SimpleData name="runtime">887315</SimpleData>
+		<SimpleData name="vibration_type">3</SimpleData>
+		<SimpleData name="nearest_line_id">71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.733173233781278,51.03899046122271</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1295</SimpleData>
+		<SimpleData name="imu_x">0.98</SimpleData>
+		<SimpleData name="imu_y">-1.69</SimpleData>
+		<SimpleData name="imu_z">0.98</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">12</SimpleData>
+		<SimpleData name="runtime">887384</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.733173233781278,51.03899046122271</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1296</SimpleData>
+		<SimpleData name="imu_x">-4.47</SimpleData>
+		<SimpleData name="imu_y">2.04</SimpleData>
+		<SimpleData name="imu_z">-4.47</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">12</SimpleData>
+		<SimpleData name="runtime">887535</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.733173233781278,51.03899046122271</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1297</SimpleData>
+		<SimpleData name="imu_x">0.04</SimpleData>
+		<SimpleData name="imu_y">-2.2</SimpleData>
+		<SimpleData name="imu_z">0.04</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">12</SimpleData>
+		<SimpleData name="runtime">887608</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.733173233781278,51.03899046122271</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1309</SimpleData>
+		<SimpleData name="imu_x">-4.04</SimpleData>
+		<SimpleData name="imu_y">3.33</SimpleData>
+		<SimpleData name="imu_z">-4.04</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">16</SimpleData>
+		<SimpleData name="runtime">890331</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.733042504141764,51.038814986008546</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1310</SimpleData>
+		<SimpleData name="imu_x">5.06</SimpleData>
+		<SimpleData name="imu_y">3.1</SimpleData>
+		<SimpleData name="imu_z">5.06</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">16</SimpleData>
+		<SimpleData name="runtime">890406</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.733042504141764,51.038814986008546</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1311</SimpleData>
+		<SimpleData name="imu_x">-0.16</SimpleData>
+		<SimpleData name="imu_y">-8</SimpleData>
+		<SimpleData name="imu_z">-0.16</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">16</SimpleData>
+		<SimpleData name="runtime">890651</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.733042504141764,51.038814986008546</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1312</SimpleData>
+		<SimpleData name="imu_x">0.63</SimpleData>
+		<SimpleData name="imu_y">-6.55</SimpleData>
+		<SimpleData name="imu_z">0.63</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">16</SimpleData>
+		<SimpleData name="runtime">890727</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.733042504141764,51.038814986008546</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1313</SimpleData>
+		<SimpleData name="imu_x">1.53</SimpleData>
+		<SimpleData name="imu_y">-6.98</SimpleData>
+		<SimpleData name="imu_z">1.53</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">16</SimpleData>
+		<SimpleData name="runtime">891249</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.733042504141764,51.038814986008546</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1314</SimpleData>
+		<SimpleData name="imu_x">-10.04</SimpleData>
+		<SimpleData name="imu_y">-18.79</SimpleData>
+		<SimpleData name="imu_z">-10.04</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">16</SimpleData>
+		<SimpleData name="runtime">891368</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.733042504141764,51.038814986008546</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1315</SimpleData>
+		<SimpleData name="imu_x">-1.26</SimpleData>
+		<SimpleData name="imu_y">-5.3</SimpleData>
+		<SimpleData name="imu_z">-1.26</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">16</SimpleData>
+		<SimpleData name="runtime">891458</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.733042504141764,51.038814986008546</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1316</SimpleData>
+		<SimpleData name="imu_x">-0.51</SimpleData>
+		<SimpleData name="imu_y">-0.82</SimpleData>
+		<SimpleData name="imu_z">-0.51</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">16</SimpleData>
+		<SimpleData name="runtime">891797</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.733042504141764,51.038814986008546</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1317</SimpleData>
+		<SimpleData name="imu_x">-1.88</SimpleData>
+		<SimpleData name="imu_y">0.47</SimpleData>
+		<SimpleData name="imu_z">-1.88</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">16</SimpleData>
+		<SimpleData name="runtime">892071</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.733042504141764,51.038814986008546</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1318</SimpleData>
+		<SimpleData name="imu_x">-1.84</SimpleData>
+		<SimpleData name="imu_y">-1.41</SimpleData>
+		<SimpleData name="imu_z">-1.84</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">18</SimpleData>
+		<SimpleData name="runtime">892279</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.733042504141764,51.038814986008546</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1319</SimpleData>
+		<SimpleData name="imu_x">-2.24</SimpleData>
+		<SimpleData name="imu_y">-2.98</SimpleData>
+		<SimpleData name="imu_z">-2.24</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">18</SimpleData>
+		<SimpleData name="runtime">893739</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">71</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.733042504141764,51.038814986008546</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1320</SimpleData>
+		<SimpleData name="imu_x">-4.86</SimpleData>
+		<SimpleData name="imu_y">-8.59</SimpleData>
+		<SimpleData name="imu_z">-4.86</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">20</SimpleData>
+		<SimpleData name="runtime">894491</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.732828787826758,51.038668142803068</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1321</SimpleData>
+		<SimpleData name="imu_x">0.55</SimpleData>
+		<SimpleData name="imu_y">-7.61</SimpleData>
+		<SimpleData name="imu_z">0.55</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">20</SimpleData>
+		<SimpleData name="runtime">895083</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.732828787826758,51.038668142803068</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1322</SimpleData>
+		<SimpleData name="imu_x">-2.08</SimpleData>
+		<SimpleData name="imu_y">-0.75</SimpleData>
+		<SimpleData name="imu_z">-2.08</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">20</SimpleData>
+		<SimpleData name="runtime">895679</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.732828787826758,51.038668142803068</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1323</SimpleData>
+		<SimpleData name="imu_x">-0.35</SimpleData>
+		<SimpleData name="imu_y">-6</SimpleData>
+		<SimpleData name="imu_z">-0.35</SimpleData>
+		<SimpleData name="day">2</SimpleData>
+		<SimpleData name="month">80</SimpleData>
+		<SimpleData name="year">11</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">22</SimpleData>
+		<SimpleData name="runtime">897073</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.732828787826758,51.038668142803068</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1324</SimpleData>
+		<SimpleData name="imu_x">-4.43</SimpleData>
+		<SimpleData name="imu_y">-7.65</SimpleData>
+		<SimpleData name="imu_z">-4.43</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">24</SimpleData>
+		<SimpleData name="runtime">898600</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.732770877744661,51.038529869201824</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1325</SimpleData>
+		<SimpleData name="imu_x">-1.53</SimpleData>
+		<SimpleData name="imu_y">4.86</SimpleData>
+		<SimpleData name="imu_z">-1.53</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">24</SimpleData>
+		<SimpleData name="runtime">898941</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.732770877744661,51.038529869201824</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1326</SimpleData>
+		<SimpleData name="imu_x">-2.71</SimpleData>
+		<SimpleData name="imu_y">-2.9</SimpleData>
+		<SimpleData name="imu_z">-2.71</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">24</SimpleData>
+		<SimpleData name="runtime">899480</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.732770877744661,51.038529869201824</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1327</SimpleData>
+		<SimpleData name="imu_x">1.65</SimpleData>
+		<SimpleData name="imu_y">-0.67</SimpleData>
+		<SimpleData name="imu_z">1.65</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">26</SimpleData>
+		<SimpleData name="runtime">902074</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.732770877744661,51.038529869201824</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1328</SimpleData>
+		<SimpleData name="imu_x">-1.92</SimpleData>
+		<SimpleData name="imu_y">0.39</SimpleData>
+		<SimpleData name="imu_z">-1.92</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">32</SimpleData>
+		<SimpleData name="runtime">906929</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.732610643393981,51.038193002122199</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1329</SimpleData>
+		<SimpleData name="imu_x">-1.49</SimpleData>
+		<SimpleData name="imu_y">-3.02</SimpleData>
+		<SimpleData name="imu_z">-1.49</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">32</SimpleData>
+		<SimpleData name="runtime">906986</SimpleData>
+		<SimpleData name="vibration_type">3</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.732610643393981,51.038193002122199</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1330</SimpleData>
+		<SimpleData name="imu_x">0.9</SimpleData>
+		<SimpleData name="imu_y">-1.49</SimpleData>
+		<SimpleData name="imu_z">0.9</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">32</SimpleData>
+		<SimpleData name="runtime">907075</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.732610643393981,51.038193002122199</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1331</SimpleData>
+		<SimpleData name="imu_x">0.55</SimpleData>
+		<SimpleData name="imu_y">3.57</SimpleData>
+		<SimpleData name="imu_z">0.55</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">36</SimpleData>
+		<SimpleData name="runtime">912076</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.732516312226684,51.037992331938142</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1332</SimpleData>
+		<SimpleData name="imu_x">-0.04</SimpleData>
+		<SimpleData name="imu_y">1.49</SimpleData>
+		<SimpleData name="imu_z">-0.04</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">40</SimpleData>
+		<SimpleData name="runtime">916082</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.732452144884343,51.037855829096429</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1335</SimpleData>
+		<SimpleData name="imu_x">-2.55</SimpleData>
+		<SimpleData name="imu_y">-5.41</SimpleData>
+		<SimpleData name="imu_z">-2.55</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">46</SimpleData>
+		<SimpleData name="runtime">921524</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.732293664242595,51.037518632083646</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1336</SimpleData>
+		<SimpleData name="imu_x">-1.69</SimpleData>
+		<SimpleData name="imu_y">-5.57</SimpleData>
+		<SimpleData name="imu_z">-1.69</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">46</SimpleData>
+		<SimpleData name="runtime">922078</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.732293664242595,51.037518632083646</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1340</SimpleData>
+		<SimpleData name="imu_x">-1.14</SimpleData>
+		<SimpleData name="imu_y">-5.22</SimpleData>
+		<SimpleData name="imu_z">-1.14</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">54</SimpleData>
+		<SimpleData name="runtime">928785</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.732136505577488,51.037180640006916</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1341</SimpleData>
+		<SimpleData name="imu_x">-1.73</SimpleData>
+		<SimpleData name="imu_y">-3.02</SimpleData>
+		<SimpleData name="imu_z">-1.73</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">36</SimpleData>
+		<SimpleData name="seconds">54</SimpleData>
+		<SimpleData name="runtime">929687</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.732136505577488,51.037180640006916</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1347</SimpleData>
+		<SimpleData name="imu_x">-3.37</SimpleData>
+		<SimpleData name="imu_y">-3.8</SimpleData>
+		<SimpleData name="imu_z">-3.37</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">2</SimpleData>
+		<SimpleData name="runtime">937080</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731979913159584,51.036842639371791</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1348</SimpleData>
+		<SimpleData name="imu_x">-3.18</SimpleData>
+		<SimpleData name="imu_y">-4.59</SimpleData>
+		<SimpleData name="imu_z">-3.18</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">2</SimpleData>
+		<SimpleData name="runtime">937360</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731979913159584,51.036842639371791</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1349</SimpleData>
+		<SimpleData name="imu_x">-1.41</SimpleData>
+		<SimpleData name="imu_y">0.67</SimpleData>
+		<SimpleData name="imu_z">-1.41</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">2</SimpleData>
+		<SimpleData name="runtime">937992</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731979913159584,51.036842639371791</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1350</SimpleData>
+		<SimpleData name="imu_x">-0.59</SimpleData>
+		<SimpleData name="imu_y">3.02</SimpleData>
+		<SimpleData name="imu_z">-0.59</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">2</SimpleData>
+		<SimpleData name="runtime">938184</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731979913159584,51.036842639371791</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1351</SimpleData>
+		<SimpleData name="imu_x">-3.26</SimpleData>
+		<SimpleData name="imu_y">-2.59</SimpleData>
+		<SimpleData name="imu_z">-3.26</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">4</SimpleData>
+		<SimpleData name="runtime">939851</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731916342732065,51.036705424267986</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1352</SimpleData>
+		<SimpleData name="imu_x">-2.59</SimpleData>
+		<SimpleData name="imu_y">-4.59</SimpleData>
+		<SimpleData name="imu_z">-2.59</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">4</SimpleData>
+		<SimpleData name="runtime">940139</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731916342732065,51.036705424267986</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1353</SimpleData>
+		<SimpleData name="imu_x">2.51</SimpleData>
+		<SimpleData name="imu_y">-4.16</SimpleData>
+		<SimpleData name="imu_z">2.51</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">4</SimpleData>
+		<SimpleData name="runtime">940233</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731916342732065,51.036705424267986</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1354</SimpleData>
+		<SimpleData name="imu_x">-1.06</SimpleData>
+		<SimpleData name="imu_y">0.08</SimpleData>
+		<SimpleData name="imu_z">-1.06</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">6</SimpleData>
+		<SimpleData name="runtime">940544</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731916342732065,51.036705424267986</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1355</SimpleData>
+		<SimpleData name="imu_x">-2.39</SimpleData>
+		<SimpleData name="imu_y">-0.55</SimpleData>
+		<SimpleData name="imu_z">-2.39</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">6</SimpleData>
+		<SimpleData name="runtime">940924</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731916342732065,51.036705424267986</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1356</SimpleData>
+		<SimpleData name="imu_x">-2.71</SimpleData>
+		<SimpleData name="imu_y">0.63</SimpleData>
+		<SimpleData name="imu_z">-2.71</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">6</SimpleData>
+		<SimpleData name="runtime">941087</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731916342732065,51.036705424267986</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1357</SimpleData>
+		<SimpleData name="imu_x">-2.51</SimpleData>
+		<SimpleData name="imu_y">-7.18</SimpleData>
+		<SimpleData name="imu_z">-2.51</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">6</SimpleData>
+		<SimpleData name="runtime">941181</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731916342732065,51.036705424267986</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1358</SimpleData>
+		<SimpleData name="imu_x">-2.35</SimpleData>
+		<SimpleData name="imu_y">-2.63</SimpleData>
+		<SimpleData name="imu_z">-2.35</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">6</SimpleData>
+		<SimpleData name="runtime">942081</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731916342732065,51.036705424267986</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1359</SimpleData>
+		<SimpleData name="imu_x">-2.28</SimpleData>
+		<SimpleData name="imu_y">-2.63</SimpleData>
+		<SimpleData name="imu_z">-2.28</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">8</SimpleData>
+		<SimpleData name="runtime">943517</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731823320741679,51.036504638736652</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1360</SimpleData>
+		<SimpleData name="imu_x">-0.78</SimpleData>
+		<SimpleData name="imu_y">-3.84</SimpleData>
+		<SimpleData name="imu_z">-0.78</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">8</SimpleData>
+		<SimpleData name="runtime">943662</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731823320741679,51.036504638736652</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1361</SimpleData>
+		<SimpleData name="imu_x">-2.43</SimpleData>
+		<SimpleData name="imu_y">1.22</SimpleData>
+		<SimpleData name="imu_z">-2.43</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">12</SimpleData>
+		<SimpleData name="runtime">946332</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.73175975031416,51.036367423632846</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1362</SimpleData>
+		<SimpleData name="imu_x">-1.53</SimpleData>
+		<SimpleData name="imu_y">-4.43</SimpleData>
+		<SimpleData name="imu_z">-1.53</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">12</SimpleData>
+		<SimpleData name="runtime">947082</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.73175975031416,51.036367423632846</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1363</SimpleData>
+		<SimpleData name="imu_x">-0.67</SimpleData>
+		<SimpleData name="imu_y">0.27</SimpleData>
+		<SimpleData name="imu_z">-0.67</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">12</SimpleData>
+		<SimpleData name="runtime">947922</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.73175975031416,51.036367423632846</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1367</SimpleData>
+		<SimpleData name="imu_x">-3.26</SimpleData>
+		<SimpleData name="imu_y">-2.31</SimpleData>
+		<SimpleData name="imu_z">-3.26</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">16</SimpleData>
+		<SimpleData name="runtime">950432</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731661894663947,51.036169553651241</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1368</SimpleData>
+		<SimpleData name="imu_x">-2.63</SimpleData>
+		<SimpleData name="imu_y">-3.77</SimpleData>
+		<SimpleData name="imu_z">-2.63</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">16</SimpleData>
+		<SimpleData name="runtime">950621</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731661894663947,51.036169553651241</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1369</SimpleData>
+		<SimpleData name="imu_x">2.67</SimpleData>
+		<SimpleData name="imu_y">2.55</SimpleData>
+		<SimpleData name="imu_z">2.67</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">16</SimpleData>
+		<SimpleData name="runtime">950895</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731661894663947,51.036169553651241</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1370</SimpleData>
+		<SimpleData name="imu_x">-3.45</SimpleData>
+		<SimpleData name="imu_y">-4.55</SimpleData>
+		<SimpleData name="imu_z">-3.45</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">16</SimpleData>
+		<SimpleData name="runtime">951355</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731661894663947,51.036169553651241</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1371</SimpleData>
+		<SimpleData name="imu_x">2.59</SimpleData>
+		<SimpleData name="imu_y">-5.41</SimpleData>
+		<SimpleData name="imu_z">2.59</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">16</SimpleData>
+		<SimpleData name="runtime">952083</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731661894663947,51.036169553651241</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1372</SimpleData>
+		<SimpleData name="imu_x">-2.39</SimpleData>
+		<SimpleData name="imu_y">-5.14</SimpleData>
+		<SimpleData name="imu_z">-2.39</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">18</SimpleData>
+		<SimpleData name="runtime">952957</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">53</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731659046375151,51.035961354235887</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1373</SimpleData>
+		<SimpleData name="imu_x">-2.04</SimpleData>
+		<SimpleData name="imu_y">-0.31</SimpleData>
+		<SimpleData name="imu_z">-2.04</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">18</SimpleData>
+		<SimpleData name="runtime">953590</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">53</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731659046375151,51.035961354235887</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1374</SimpleData>
+		<SimpleData name="imu_x">-3.69</SimpleData>
+		<SimpleData name="imu_y">-2.43</SimpleData>
+		<SimpleData name="imu_z">-3.69</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">20</SimpleData>
+		<SimpleData name="runtime">955000</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">53</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731659046375151,51.035961354235887</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1375</SimpleData>
+		<SimpleData name="imu_x">-5.1</SimpleData>
+		<SimpleData name="imu_y">-5.53</SimpleData>
+		<SimpleData name="imu_z">-5.1</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">20</SimpleData>
+		<SimpleData name="runtime">955070</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">53</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731659046375151,51.035961354235887</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1376</SimpleData>
+		<SimpleData name="imu_x">0.39</SimpleData>
+		<SimpleData name="imu_y">-13.69</SimpleData>
+		<SimpleData name="imu_z">0.39</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">20</SimpleData>
+		<SimpleData name="runtime">955594</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">53</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731659046375151,51.035961354235887</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1377</SimpleData>
+		<SimpleData name="imu_x">-4.24</SimpleData>
+		<SimpleData name="imu_y">-5.06</SimpleData>
+		<SimpleData name="imu_z">-4.24</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">20</SimpleData>
+		<SimpleData name="runtime">956121</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">53</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731659046375151,51.035961354235887</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1378</SimpleData>
+		<SimpleData name="imu_x">-4.24</SimpleData>
+		<SimpleData name="imu_y">-6.35</SimpleData>
+		<SimpleData name="imu_z">-4.24</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">22</SimpleData>
+		<SimpleData name="runtime">956508</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731485075808497,51.035840262335512</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1379</SimpleData>
+		<SimpleData name="imu_x">-2.79</SimpleData>
+		<SimpleData name="imu_y">2.2</SimpleData>
+		<SimpleData name="imu_z">-2.79</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">22</SimpleData>
+		<SimpleData name="runtime">956788</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731485075808497,51.035840262335512</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1380</SimpleData>
+		<SimpleData name="imu_x">-0.71</SimpleData>
+		<SimpleData name="imu_y">-2.51</SimpleData>
+		<SimpleData name="imu_z">-0.71</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">22</SimpleData>
+		<SimpleData name="runtime">957084</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731485075808497,51.035840262335512</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1381</SimpleData>
+		<SimpleData name="imu_x">-2.94</SimpleData>
+		<SimpleData name="imu_y">-4.47</SimpleData>
+		<SimpleData name="imu_z">-2.94</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">22</SimpleData>
+		<SimpleData name="runtime">957716</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731485075808497,51.035840262335512</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1382</SimpleData>
+		<SimpleData name="imu_x">0.31</SimpleData>
+		<SimpleData name="imu_y">-4.28</SimpleData>
+		<SimpleData name="imu_z">0.31</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">22</SimpleData>
+		<SimpleData name="runtime">957880</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731485075808497,51.035840262335512</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1383</SimpleData>
+		<SimpleData name="imu_x">0</SimpleData>
+		<SimpleData name="imu_y">0.94</SimpleData>
+		<SimpleData name="imu_z">0</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">22</SimpleData>
+		<SimpleData name="runtime">958193</SimpleData>
+		<SimpleData name="vibration_type">3</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731485075808497,51.035840262335512</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1384</SimpleData>
+		<SimpleData name="imu_x">-1.65</SimpleData>
+		<SimpleData name="imu_y">-0.59</SimpleData>
+		<SimpleData name="imu_z">-1.65</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">24</SimpleData>
+		<SimpleData name="runtime">958553</SimpleData>
+		<SimpleData name="vibration_type">3</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731485075808497,51.035840262335512</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1385</SimpleData>
+		<SimpleData name="imu_x">-3.14</SimpleData>
+		<SimpleData name="imu_y">-7.85</SimpleData>
+		<SimpleData name="imu_z">-3.14</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">24</SimpleData>
+		<SimpleData name="runtime">958973</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731485075808497,51.035840262335512</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1386</SimpleData>
+		<SimpleData name="imu_x">-7.49</SimpleData>
+		<SimpleData name="imu_y">0.35</SimpleData>
+		<SimpleData name="imu_z">-7.49</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">26</SimpleData>
+		<SimpleData name="runtime">962050</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731421417700853,51.035703150848839</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1387</SimpleData>
+		<SimpleData name="imu_x">0.9</SimpleData>
+		<SimpleData name="imu_y">1.1</SimpleData>
+		<SimpleData name="imu_z">0.9</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">26</SimpleData>
+		<SimpleData name="runtime">962101</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731421417700853,51.035703150848839</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1388</SimpleData>
+		<SimpleData name="imu_x">-1.06</SimpleData>
+		<SimpleData name="imu_y">-2.55</SimpleData>
+		<SimpleData name="imu_z">-1.06</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">26</SimpleData>
+		<SimpleData name="runtime">962209</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731421417700853,51.035703150848839</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1389</SimpleData>
+		<SimpleData name="imu_x">-1.22</SimpleData>
+		<SimpleData name="imu_y">-3.18</SimpleData>
+		<SimpleData name="imu_z">-1.22</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">28</SimpleData>
+		<SimpleData name="runtime">963706</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731421417700853,51.035703150848839</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1390</SimpleData>
+		<SimpleData name="imu_x">-4.98</SimpleData>
+		<SimpleData name="imu_y">-5.02</SimpleData>
+		<SimpleData name="imu_z">-4.98</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">30</SimpleData>
+		<SimpleData name="runtime">964342</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731328204413211,51.035502381254531</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1391</SimpleData>
+		<SimpleData name="imu_x">-1.84</SimpleData>
+		<SimpleData name="imu_y">-3.06</SimpleData>
+		<SimpleData name="imu_z">-1.84</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">30</SimpleData>
+		<SimpleData name="runtime">965500</SimpleData>
+		<SimpleData name="vibration_type">3</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731328204413211,51.035502381254531</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1392</SimpleData>
+		<SimpleData name="imu_x">-2.9</SimpleData>
+		<SimpleData name="imu_y">-5.49</SimpleData>
+		<SimpleData name="imu_z">-2.9</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">30</SimpleData>
+		<SimpleData name="runtime">965602</SimpleData>
+		<SimpleData name="vibration_type">3</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731328204413211,51.035502381254531</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1393</SimpleData>
+		<SimpleData name="imu_x">-1.37</SimpleData>
+		<SimpleData name="imu_y">-7.3</SimpleData>
+		<SimpleData name="imu_z">-1.37</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">30</SimpleData>
+		<SimpleData name="runtime">966074</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731328204413211,51.035502381254531</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1394</SimpleData>
+		<SimpleData name="imu_x">-0.12</SimpleData>
+		<SimpleData name="imu_y">-2.51</SimpleData>
+		<SimpleData name="imu_z">-0.12</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">32</SimpleData>
+		<SimpleData name="runtime">967103</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731328204413211,51.035502381254531</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1395</SimpleData>
+		<SimpleData name="imu_x">1.41</SimpleData>
+		<SimpleData name="imu_y">-1.26</SimpleData>
+		<SimpleData name="imu_z">1.41</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">32</SimpleData>
+		<SimpleData name="runtime">967938</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731328204413211,51.035502381254531</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1396</SimpleData>
+		<SimpleData name="imu_x">-2.79</SimpleData>
+		<SimpleData name="imu_y">1.18</SimpleData>
+		<SimpleData name="imu_z">-2.79</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">32</SimpleData>
+		<SimpleData name="runtime">968073</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731328204413211,51.035502381254531</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1397</SimpleData>
+		<SimpleData name="imu_x">-3.18</SimpleData>
+		<SimpleData name="imu_y">-2.39</SimpleData>
+		<SimpleData name="imu_z">-3.18</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">34</SimpleData>
+		<SimpleData name="runtime">968820</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731264546305569,51.035365269767865</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1398</SimpleData>
+		<SimpleData name="imu_x">-1.18</SimpleData>
+		<SimpleData name="imu_y">-2.12</SimpleData>
+		<SimpleData name="imu_z">-1.18</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">34</SimpleData>
+		<SimpleData name="runtime">969111</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731264546305569,51.035365269767865</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1399</SimpleData>
+		<SimpleData name="imu_x">-1.77</SimpleData>
+		<SimpleData name="imu_y">-5.81</SimpleData>
+		<SimpleData name="imu_z">-1.77</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">34</SimpleData>
+		<SimpleData name="runtime">969458</SimpleData>
+		<SimpleData name="vibration_type">3</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731264546305569,51.035365269767865</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1400</SimpleData>
+		<SimpleData name="imu_x">-3.14</SimpleData>
+		<SimpleData name="imu_y">-6.83</SimpleData>
+		<SimpleData name="imu_z">-3.14</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">36</SimpleData>
+		<SimpleData name="runtime">970340</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731264546305569,51.035365269767865</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1401</SimpleData>
+		<SimpleData name="imu_x">2.12</SimpleData>
+		<SimpleData name="imu_y">-12.51</SimpleData>
+		<SimpleData name="imu_z">2.12</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">36</SimpleData>
+		<SimpleData name="runtime">970679</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731264546305569,51.035365269767865</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1402</SimpleData>
+		<SimpleData name="imu_x">-0.67</SimpleData>
+		<SimpleData name="imu_y">-2.43</SimpleData>
+		<SimpleData name="imu_z">-0.67</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">36</SimpleData>
+		<SimpleData name="runtime">970873</SimpleData>
+		<SimpleData name="vibration_type">3</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731264546305569,51.035365269767865</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1403</SimpleData>
+		<SimpleData name="imu_x">8.08</SimpleData>
+		<SimpleData name="imu_y">-5.81</SimpleData>
+		<SimpleData name="imu_z">8.08</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">36</SimpleData>
+		<SimpleData name="runtime">970941</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731264546305569,51.035365269767865</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1404</SimpleData>
+		<SimpleData name="imu_x">-4.86</SimpleData>
+		<SimpleData name="imu_y">-4</SimpleData>
+		<SimpleData name="imu_z">-4.86</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">36</SimpleData>
+		<SimpleData name="runtime">971174</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731264546305569,51.035365269767865</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1405</SimpleData>
+		<SimpleData name="imu_x">-2.75</SimpleData>
+		<SimpleData name="imu_y">-7.37</SimpleData>
+		<SimpleData name="imu_z">-2.75</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">36</SimpleData>
+		<SimpleData name="runtime">972105</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731264546305569,51.035365269767865</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1406</SimpleData>
+		<SimpleData name="imu_x">-5.57</SimpleData>
+		<SimpleData name="imu_y">-0.78</SimpleData>
+		<SimpleData name="imu_z">-5.57</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">38</SimpleData>
+		<SimpleData name="runtime">973038</SimpleData>
+		<SimpleData name="vibration_type">3</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731169908054826,51.035165112664515</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1407</SimpleData>
+		<SimpleData name="imu_x">-0.78</SimpleData>
+		<SimpleData name="imu_y">-5.69</SimpleData>
+		<SimpleData name="imu_z">-0.78</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">40</SimpleData>
+		<SimpleData name="runtime">975611</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731169908054826,51.035165112664515</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1408</SimpleData>
+		<SimpleData name="imu_x">-3.53</SimpleData>
+		<SimpleData name="imu_y">0.75</SimpleData>
+		<SimpleData name="imu_z">-3.53</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">42</SimpleData>
+		<SimpleData name="runtime">976403</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731104937315722,51.035029594587186</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1409</SimpleData>
+		<SimpleData name="imu_x">-0.9</SimpleData>
+		<SimpleData name="imu_y">1.14</SimpleData>
+		<SimpleData name="imu_z">-0.9</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">42</SimpleData>
+		<SimpleData name="runtime">976466</SimpleData>
+		<SimpleData name="vibration_type">3</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731104937315722,51.035029594587186</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1410</SimpleData>
+		<SimpleData name="imu_x">-2.63</SimpleData>
+		<SimpleData name="imu_y">-3.33</SimpleData>
+		<SimpleData name="imu_z">-2.63</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">42</SimpleData>
+		<SimpleData name="runtime">976738</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731104937315722,51.035029594587186</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1411</SimpleData>
+		<SimpleData name="imu_x">-0.27</SimpleData>
+		<SimpleData name="imu_y">-5.3</SimpleData>
+		<SimpleData name="imu_z">-0.27</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">42</SimpleData>
+		<SimpleData name="runtime">977105</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731104937315722,51.035029594587186</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1412</SimpleData>
+		<SimpleData name="imu_x">-0.27</SimpleData>
+		<SimpleData name="imu_y">-0.2</SimpleData>
+		<SimpleData name="imu_z">-0.27</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">42</SimpleData>
+		<SimpleData name="runtime">977217</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731104937315722,51.035029594587186</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1413</SimpleData>
+		<SimpleData name="imu_x">-0.71</SimpleData>
+		<SimpleData name="imu_y">2.08</SimpleData>
+		<SimpleData name="imu_z">-0.71</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">44</SimpleData>
+		<SimpleData name="runtime">980119</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731104937315722,51.035029594587186</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1414</SimpleData>
+		<SimpleData name="imu_x">-3.57</SimpleData>
+		<SimpleData name="imu_y">-4.9</SimpleData>
+		<SimpleData name="imu_z">-3.57</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">44</SimpleData>
+		<SimpleData name="runtime">980283</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731104937315722,51.035029594587186</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1415</SimpleData>
+		<SimpleData name="imu_x">-2.39</SimpleData>
+		<SimpleData name="imu_y">-4.71</SimpleData>
+		<SimpleData name="imu_z">-2.39</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">46</SimpleData>
+		<SimpleData name="runtime">980392</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731008817987274,51.034829105770768</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1416</SimpleData>
+		<SimpleData name="imu_x">-4.08</SimpleData>
+		<SimpleData name="imu_y">10</SimpleData>
+		<SimpleData name="imu_z">-4.08</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">46</SimpleData>
+		<SimpleData name="runtime">980555</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731008817987274,51.034829105770768</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1417</SimpleData>
+		<SimpleData name="imu_x">-3.84</SimpleData>
+		<SimpleData name="imu_y">-2.51</SimpleData>
+		<SimpleData name="imu_z">-3.84</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">46</SimpleData>
+		<SimpleData name="runtime">980956</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731008817987274,51.034829105770768</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1418</SimpleData>
+		<SimpleData name="imu_x">-1.41</SimpleData>
+		<SimpleData name="imu_y">-3.22</SimpleData>
+		<SimpleData name="imu_z">-1.41</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">46</SimpleData>
+		<SimpleData name="runtime">982107</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731008817987274,51.034829105770768</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1419</SimpleData>
+		<SimpleData name="imu_x">-6.16</SimpleData>
+		<SimpleData name="imu_y">-1.77</SimpleData>
+		<SimpleData name="imu_z">-6.16</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">48</SimpleData>
+		<SimpleData name="runtime">982522</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.731008817987274,51.034829105770768</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1420</SimpleData>
+		<SimpleData name="imu_x">-3.84</SimpleData>
+		<SimpleData name="imu_y">-2.94</SimpleData>
+		<SimpleData name="imu_z">-3.84</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">50</SimpleData>
+		<SimpleData name="runtime">984973</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730943847248174,51.034693587693447</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1421</SimpleData>
+		<SimpleData name="imu_x">-1.18</SimpleData>
+		<SimpleData name="imu_y">-1.73</SimpleData>
+		<SimpleData name="imu_z">-1.18</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">50</SimpleData>
+		<SimpleData name="runtime">985041</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730943847248174,51.034693587693447</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1422</SimpleData>
+		<SimpleData name="imu_x">-0.27</SimpleData>
+		<SimpleData name="imu_y">-3.61</SimpleData>
+		<SimpleData name="imu_z">-0.27</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">50</SimpleData>
+		<SimpleData name="runtime">986123</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730943847248174,51.034693587693447</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1423</SimpleData>
+		<SimpleData name="imu_x">-2.12</SimpleData>
+		<SimpleData name="imu_y">-1.41</SimpleData>
+		<SimpleData name="imu_z">-2.12</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">52</SimpleData>
+		<SimpleData name="runtime">987109</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730943847248174,51.034693587693447</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1424</SimpleData>
+		<SimpleData name="imu_x">-1.96</SimpleData>
+		<SimpleData name="imu_y">-2.51</SimpleData>
+		<SimpleData name="imu_z">-1.96</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">54</SimpleData>
+		<SimpleData name="runtime">988903</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730911454466689,51.03462649413958</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1425</SimpleData>
+		<SimpleData name="imu_x">-1.65</SimpleData>
+		<SimpleData name="imu_y">-2.82</SimpleData>
+		<SimpleData name="imu_z">-1.65</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">56</SimpleData>
+		<SimpleData name="runtime">991789</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730843672779102,51.034494683107539</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1426</SimpleData>
+		<SimpleData name="imu_x">-1.69</SimpleData>
+		<SimpleData name="imu_y">-0.2</SimpleData>
+		<SimpleData name="imu_z">-1.69</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">56</SimpleData>
+		<SimpleData name="runtime">991928</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730843672779102,51.034494683107539</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1427</SimpleData>
+		<SimpleData name="imu_x">0.24</SimpleData>
+		<SimpleData name="imu_y">-1.77</SimpleData>
+		<SimpleData name="imu_z">0.24</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">56</SimpleData>
+		<SimpleData name="runtime">992110</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730843672779102,51.034494683107539</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1428</SimpleData>
+		<SimpleData name="imu_x">-1.18</SimpleData>
+		<SimpleData name="imu_y">-0.35</SimpleData>
+		<SimpleData name="imu_z">-1.18</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">56</SimpleData>
+		<SimpleData name="runtime">992258</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730843672779102,51.034494683107539</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1429</SimpleData>
+		<SimpleData name="imu_x">-3.02</SimpleData>
+		<SimpleData name="imu_y">-2.75</SimpleData>
+		<SimpleData name="imu_z">-3.02</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">58</SimpleData>
+		<SimpleData name="runtime">992715</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730843672779102,51.034494683107539</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1430</SimpleData>
+		<SimpleData name="imu_x">-1.02</SimpleData>
+		<SimpleData name="imu_y">-3.02</SimpleData>
+		<SimpleData name="imu_z">-1.02</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">37</SimpleData>
+		<SimpleData name="seconds">58</SimpleData>
+		<SimpleData name="runtime">993485</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730843672779102,51.034494683107539</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1431</SimpleData>
+		<SimpleData name="imu_x">0.2</SimpleData>
+		<SimpleData name="imu_y">3.22</SimpleData>
+		<SimpleData name="imu_z">0.2</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">0</SimpleData>
+		<SimpleData name="runtime">994977</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730843672779102,51.034494683107539</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1432</SimpleData>
+		<SimpleData name="imu_x">-3.37</SimpleData>
+		<SimpleData name="imu_y">-1.22</SimpleData>
+		<SimpleData name="imu_z">-3.37</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">2</SimpleData>
+		<SimpleData name="runtime">996841</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730843672779102,51.034494683107539</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1433</SimpleData>
+		<SimpleData name="imu_x">2.94</SimpleData>
+		<SimpleData name="imu_y">-3.22</SimpleData>
+		<SimpleData name="imu_z">2.94</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">2</SimpleData>
+		<SimpleData name="runtime">996965</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730843672779102,51.034494683107539</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1434</SimpleData>
+		<SimpleData name="imu_x">-3.33</SimpleData>
+		<SimpleData name="imu_y">-4.2</SimpleData>
+		<SimpleData name="imu_z">-3.33</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">2</SimpleData>
+		<SimpleData name="runtime">997111</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730843672779102,51.034494683107539</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1435</SimpleData>
+		<SimpleData name="imu_x">-3.65</SimpleData>
+		<SimpleData name="imu_y">-4.98</SimpleData>
+		<SimpleData name="imu_z">-3.65</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">2</SimpleData>
+		<SimpleData name="runtime">997814</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730843672779102,51.034494683107539</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1436</SimpleData>
+		<SimpleData name="imu_x">-4.75</SimpleData>
+		<SimpleData name="imu_y">-2.35</SimpleData>
+		<SimpleData name="imu_z">-4.75</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">2</SimpleData>
+		<SimpleData name="runtime">997970</SimpleData>
+		<SimpleData name="vibration_type">3</SimpleData>
+		<SimpleData name="nearest_line_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730843672779102,51.034494683107539</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1437</SimpleData>
+		<SimpleData name="imu_x">0.31</SimpleData>
+		<SimpleData name="imu_y">-2.82</SimpleData>
+		<SimpleData name="imu_z">0.31</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">4</SimpleData>
+		<SimpleData name="runtime">999370</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730776887039154,51.034361441907436</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1438</SimpleData>
+		<SimpleData name="imu_x">-0.94</SimpleData>
+		<SimpleData name="imu_y">-3.53</SimpleData>
+		<SimpleData name="imu_z">-0.94</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">4</SimpleData>
+		<SimpleData name="runtime">999583</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730776887039154,51.034361441907436</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1439</SimpleData>
+		<SimpleData name="imu_x">2.2</SimpleData>
+		<SimpleData name="imu_y">-7.1</SimpleData>
+		<SimpleData name="imu_z">2.2</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">4</SimpleData>
+		<SimpleData name="runtime">1000028</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730776887039154,51.034361441907436</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1440</SimpleData>
+		<SimpleData name="imu_x">2.82</SimpleData>
+		<SimpleData name="imu_y">-14.59</SimpleData>
+		<SimpleData name="imu_z">2.82</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">4</SimpleData>
+		<SimpleData name="runtime">1000085</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730776887039154,51.034361441907436</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1441</SimpleData>
+		<SimpleData name="imu_x">-4.24</SimpleData>
+		<SimpleData name="imu_y">0.94</SimpleData>
+		<SimpleData name="imu_z">-4.24</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">4</SimpleData>
+		<SimpleData name="runtime">1000195</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730776887039154,51.034361441907436</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1442</SimpleData>
+		<SimpleData name="imu_x">-1.61</SimpleData>
+		<SimpleData name="imu_y">-3.1</SimpleData>
+		<SimpleData name="imu_z">-1.61</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">6</SimpleData>
+		<SimpleData name="runtime">1001564</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730776887039154,51.034361441907436</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1443</SimpleData>
+		<SimpleData name="imu_x">-0.71</SimpleData>
+		<SimpleData name="imu_y">1.26</SimpleData>
+		<SimpleData name="imu_z">-0.71</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">6</SimpleData>
+		<SimpleData name="runtime">1002112</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730776887039154,51.034361441907436</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1444</SimpleData>
+		<SimpleData name="imu_x">-2.98</SimpleData>
+		<SimpleData name="imu_y">-2.98</SimpleData>
+		<SimpleData name="imu_z">-2.98</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">8</SimpleData>
+		<SimpleData name="runtime">1003669</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730776887039154,51.034361441907436</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1448</SimpleData>
+		<SimpleData name="imu_x">-0.39</SimpleData>
+		<SimpleData name="imu_y">-3.02</SimpleData>
+		<SimpleData name="imu_z">-0.39</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">16</SimpleData>
+		<SimpleData name="runtime">1012114</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">95</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730628852253624,51.034021912235389</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1449</SimpleData>
+		<SimpleData name="imu_x">-2.2</SimpleData>
+		<SimpleData name="imu_y">-0.59</SimpleData>
+		<SimpleData name="imu_z">-2.2</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">22</SimpleData>
+		<SimpleData name="runtime">1017114</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">95</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730514655710971,51.033824840820486</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1450</SimpleData>
+		<SimpleData name="imu_x">-0.82</SimpleData>
+		<SimpleData name="imu_y">-1.06</SimpleData>
+		<SimpleData name="imu_z">-0.82</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">26</SimpleData>
+		<SimpleData name="runtime">1022116</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">95</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730442355065527,51.033700070051026</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1451</SimpleData>
+		<SimpleData name="imu_x">0.9</SimpleData>
+		<SimpleData name="imu_y">-4.67</SimpleData>
+		<SimpleData name="imu_z">0.9</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">32</SimpleData>
+		<SimpleData name="runtime">1027117</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">95</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730326982110997,51.033504489785543</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1452</SimpleData>
+		<SimpleData name="imu_x">0.55</SimpleData>
+		<SimpleData name="imu_y">0.75</SimpleData>
+		<SimpleData name="imu_z">0.55</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">36</SimpleData>
+		<SimpleData name="runtime">1031771</SimpleData>
+		<SimpleData name="vibration_type">3</SimpleData>
+		<SimpleData name="nearest_line_id">95</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730326982110997,51.033504489785543</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1453</SimpleData>
+		<SimpleData name="imu_x">-1.29</SimpleData>
+		<SimpleData name="imu_y">-1.88</SimpleData>
+		<SimpleData name="imu_z">-1.29</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">36</SimpleData>
+		<SimpleData name="runtime">1032118</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">95</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730326982110997,51.033504489785543</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1454</SimpleData>
+		<SimpleData name="imu_x">-0.43</SimpleData>
+		<SimpleData name="imu_y">-2.79</SimpleData>
+		<SimpleData name="imu_z">-0.43</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">42</SimpleData>
+		<SimpleData name="runtime">1037119</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">95</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730187545263469,51.033315193150685</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1455</SimpleData>
+		<SimpleData name="imu_x">0.27</SimpleData>
+		<SimpleData name="imu_y">-2.94</SimpleData>
+		<SimpleData name="imu_z">0.27</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">46</SimpleData>
+		<SimpleData name="runtime">1042121</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">95</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730105028824278,51.033220220156373</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1456</SimpleData>
+		<SimpleData name="imu_x">2</SimpleData>
+		<SimpleData name="imu_y">-4.82</SimpleData>
+		<SimpleData name="imu_z">2</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">48</SimpleData>
+		<SimpleData name="runtime">1044039</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">95</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730010550985941,51.033150913404967</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1457</SimpleData>
+		<SimpleData name="imu_x">-0.2</SimpleData>
+		<SimpleData name="imu_y">0.55</SimpleData>
+		<SimpleData name="imu_z">-0.2</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">50</SimpleData>
+		<SimpleData name="runtime">1045716</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">95</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730010550985941,51.033150913404967</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1458</SimpleData>
+		<SimpleData name="imu_x">-3.18</SimpleData>
+		<SimpleData name="imu_y">-1.06</SimpleData>
+		<SimpleData name="imu_z">-3.18</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">50</SimpleData>
+		<SimpleData name="runtime">1046089</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">95</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730010550985941,51.033150913404967</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1459</SimpleData>
+		<SimpleData name="imu_x">0.35</SimpleData>
+		<SimpleData name="imu_y">-8</SimpleData>
+		<SimpleData name="imu_z">0.35</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">50</SimpleData>
+		<SimpleData name="runtime">1046267</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">95</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.730010550985941,51.033150913404967</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1460</SimpleData>
+		<SimpleData name="imu_x">-0.51</SimpleData>
+		<SimpleData name="imu_y">-0.94</SimpleData>
+		<SimpleData name="imu_z">-0.51</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">52</SimpleData>
+		<SimpleData name="runtime">1047122</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">132</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.729906715442146,51.032984121777389</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1461</SimpleData>
+		<SimpleData name="imu_x">-0.71</SimpleData>
+		<SimpleData name="imu_y">-3.77</SimpleData>
+		<SimpleData name="imu_z">-0.71</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">52</SimpleData>
+		<SimpleData name="runtime">1048024</SimpleData>
+		<SimpleData name="vibration_type">3</SimpleData>
+		<SimpleData name="nearest_line_id">132</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.729906715442146,51.032984121777389</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1462</SimpleData>
+		<SimpleData name="imu_x">16.59</SimpleData>
+		<SimpleData name="imu_y">19.69</SimpleData>
+		<SimpleData name="imu_z">16.59</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">52</SimpleData>
+		<SimpleData name="runtime">1048153</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">132</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.729906715442146,51.032984121777389</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1463</SimpleData>
+		<SimpleData name="imu_x">0.9</SimpleData>
+		<SimpleData name="imu_y">-0.82</SimpleData>
+		<SimpleData name="imu_z">0.9</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">52</SimpleData>
+		<SimpleData name="runtime">1048244</SimpleData>
+		<SimpleData name="vibration_type">2</SimpleData>
+		<SimpleData name="nearest_line_id">132</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.729906715442146,51.032984121777389</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1464</SimpleData>
+		<SimpleData name="imu_x">0</SimpleData>
+		<SimpleData name="imu_y">-5.49</SimpleData>
+		<SimpleData name="imu_z">0</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">56</SimpleData>
+		<SimpleData name="runtime">1051161</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">131</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.729824225284343,51.033006041309406</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1465</SimpleData>
+		<SimpleData name="imu_x">-0.9</SimpleData>
+		<SimpleData name="imu_y">-2.79</SimpleData>
+		<SimpleData name="imu_z">-0.9</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">38</SimpleData>
+		<SimpleData name="seconds">56</SimpleData>
+		<SimpleData name="runtime">1052123</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">131</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.729824225284343,51.033006041309406</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1466</SimpleData>
+		<SimpleData name="imu_x">-1.02</SimpleData>
+		<SimpleData name="imu_y">-2.67</SimpleData>
+		<SimpleData name="imu_z">-1.02</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">39</SimpleData>
+		<SimpleData name="seconds">2</SimpleData>
+		<SimpleData name="runtime">1057125</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">131</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.7296511048556,51.032858839351022</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1467</SimpleData>
+		<SimpleData name="imu_x">-1.96</SimpleData>
+		<SimpleData name="imu_y">-4.55</SimpleData>
+		<SimpleData name="imu_z">-1.96</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">39</SimpleData>
+		<SimpleData name="seconds">4</SimpleData>
+		<SimpleData name="runtime">1058654</SimpleData>
+		<SimpleData name="vibration_type">1</SimpleData>
+		<SimpleData name="nearest_line_id">131</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.7296511048556,51.032858839351022</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1468</SimpleData>
+		<SimpleData name="imu_x">0.24</SimpleData>
+		<SimpleData name="imu_y">-1.92</SimpleData>
+		<SimpleData name="imu_z">0.24</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">39</SimpleData>
+		<SimpleData name="seconds">6</SimpleData>
+		<SimpleData name="runtime">1062126</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">131</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.729524142111217,51.03278513894201</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#data_wgs84">
+		<SimpleData name="seq">1469</SimpleData>
+		<SimpleData name="imu_x">-1.57</SimpleData>
+		<SimpleData name="imu_y">2.2</SimpleData>
+		<SimpleData name="imu_z">-1.57</SimpleData>
+		<SimpleData name="day">28</SimpleData>
+		<SimpleData name="month">1</SimpleData>
+		<SimpleData name="year">15</SimpleData>
+		<SimpleData name="hours">10</SimpleData>
+		<SimpleData name="minutes">39</SimpleData>
+		<SimpleData name="seconds">12</SimpleData>
+		<SimpleData name="runtime">1067127</SimpleData>
+		<SimpleData name="vibration_type">7</SimpleData>
+		<SimpleData name="nearest_line_id">131</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>13.729344,51.0326949</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
