@@ -40,12 +40,15 @@ x <- nrow(path_data_filter)
 pathes <- list()
 se <- list()
 for(i in 1:x){
+  # no Overshoot
+  if(i!=x){
   nam <- paste("path_sg ", i, sep = "")
   coords <- matrix(cbind(c(path_data_filter$X[i],path_data_filter$X[i+1]),c(path_data_filter$Y[i],path_data_filter$Y[i+1])), nrow =2)
   temp_line <-Line(coords)
   pathes <- c(pathes,temp_line)
   all_path <- Lines(pathes,ID="path_sq ")
   se <- c(se, paste(nam))
+  }
 }
 se <-data.frame(se, row.names = c("path_sq "))
 all_path <- SpatialLines(list(all_path), proj4string = CRS("+proj=longlat +datum=WGS84 +ellps=WGS84"))
@@ -74,15 +77,23 @@ x <- nrow(agg_vib)
 pathes_vib <- list()
 se_vib <- vector()
 all_vib <- list()
+amoun <- vector()
 for(i in 1:x){
-  nam <- paste("path_sg ", i, sep = "")
-  coords <- cbind(c(agg_vib$X1[i],agg_vib$X1[i+1]),c(agg_vib$X2[i],agg_vib$X2[i+1]))
-  temp_line <- Line(coords)
-  temp_lines <- Lines(temp_line, ID =(paste("path_sg ", i, sep = "")))
-  all_vib <- c(all_vib,temp_lines)
-  se_vib <- c(se_vib, paste(nam))
+  #no overshoot
+  if(i!=x){
+    #do not connect points too far away
+    if((abs(agg_vib$X1[i]-agg_vib$X1[i+1]) <= 0.005) && (abs(agg_vib$X2[i]-agg_vib$X2[i+1]) <= 0.005)){
+      nam <- paste("path_sg ", i, sep = "")
+      coords <- cbind(c(agg_vib$X1[i],agg_vib$X1[i+1]),c(agg_vib$X2[i],agg_vib$X2[i+1]))
+      temp_line <- Line(coords)
+      temp_lines <- Lines(temp_line, ID =(paste("path_sg ", i, sep = "")))
+      all_vib <- c(all_vib,temp_lines)
+      se_vib <- c(se_vib, paste(nam))
+      amoun <- c(amoun, agg_vib$V1[i])
+    }
+  }
 }
-amoun <-data.frame(se_vib, amount=(agg_vib$V1[2:x]))
+amoun <-data.frame(se_vib, amoun)
 all_vib <- SpatialLines(all_vib)
 proj4string(all_vib)=CRS("+proj=longlat +datum=WGS84 +ellps=WGS84")
 path_vib = SpatialLinesDataFrame(all_vib, amoun, match.ID = FALSE)
