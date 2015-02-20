@@ -86,6 +86,23 @@
             }
         }
 
+        var layer_vectors = new ol.layer.Vector({
+            source: new ol.source.GeoJSON({
+                url: '../KMLs/path_vib.geojson'
+            })
+        });
+
+        var layer_kml = new ol.layer.Vector({
+            source: new ol.source.KML({
+                extractStyles: false,
+                projection: 'EPSG:900913',
+                url: '../KMLs/path_vib.kml'
+            }),
+            style: new ol.style.Style({
+                stroke: new ol.style.Stroke({ color: 'pink', width: 6 })
+            })
+        });
+
         var layer01 = new ol.layer.Vector({
             // Soft vibrations layer
             source: create_layersource(iconFeatures_soft),
@@ -111,16 +128,9 @@
                 target: 'map',
                 layers: [
                     new ol.layer.Tile({
-                        // OSM background map
-                        source: new ol.source.OSM()
+                        source: new ol.source.OSM(),
                     }),
-                    new ol.layer.Vector({
-                        source: new ol.source.KML({
-                            //projection: ol.proj.get('EPSG:4326'),
-                            url: '../KMLs/l.kml'
-
-                        })
-                    }),
+                    layer_kml,
                     layer01,
                     layer02,
                     layer03
