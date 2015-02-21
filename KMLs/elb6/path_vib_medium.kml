@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="path_vibration" id="path_vibration">
+	<SimpleField name="se_vib" type="string"></SimpleField>
+	<SimpleField name="amoun" type="float"></SimpleField>
+</Schema>
+<Folder><name>path_vibration</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#path_vibration">
+		<SimpleData name="se_vib">path_sg 12</SimpleData>
+		<SimpleData name="amoun">53.6532957539708</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>13.751029666353551,51.060358192638859 13.751331002348318,51.059998094153563</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#path_vibration">
+		<SimpleData name="se_vib">path_sg 21</SimpleData>
+		<SimpleData name="amoun">61.2615500937741</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>13.752686497459274,51.057966704982611 13.752604057987423,51.057898924017898</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#path_vibration">
+		<SimpleData name="se_vib">path_sg 23</SimpleData>
+		<SimpleData name="amoun">57.4619376326661</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>13.752516849969302,51.057815680812396 13.752346398745679,51.057652978958345</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#path_vibration">
+		<SimpleData name="se_vib">path_sg 67</SimpleData>
+		<SimpleData name="amoun">37.8786105705498</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>13.737160191938942,51.057992682578686 13.736983999772001,51.058148583989784</coordinates></LineString>
+  </Placemark>
+</Folder>
+</Document></kml>
