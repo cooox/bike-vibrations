@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="path_vibration" id="path_vibration">
+	<SimpleField name="se_vib" type="string"></SimpleField>
+	<SimpleField name="amoun" type="float"></SimpleField>
+</Schema>
+<Folder><name>path_vibration</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#path_vibration">
+		<SimpleData name="se_vib">path_sg 11</SimpleData>
+		<SimpleData name="amoun">191.022195835119</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>13.740831877690152,51.034159684232137 13.740495055871046,51.034335939235703</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#path_vibration">
+		<SimpleData name="se_vib">path_sg 37</SimpleData>
+		<SimpleData name="amoun">233.627747433536</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>13.735482501448081,51.035243811273993 13.735161432307146,51.035306615091606</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#path_vibration">
+		<SimpleData name="se_vib">path_sg 43</SimpleData>
+		<SimpleData name="amoun">164.359606260935</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>13.734327425695398,51.035469798924552 13.734166901231548,51.03550119914452</coordinates></LineString>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="path_vibration" id="path_vibration">
+	<SimpleField name="se_vib" type="string"></SimpleField>
+	<SimpleField name="amoun" type="float"></SimpleField>
+</Schema>
+<Folder><name>path_vibration</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#path_vibration">
+		<SimpleData name="se_vib">path_sg 1</SimpleData>
+		<SimpleData name="amoun">87.4847164636338</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>13.742338936121531,51.03385996742098 13.742181610530968,51.03405942401664</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#path_vibration">
+		<SimpleData name="se_vib">path_sg 3</SimpleData>
+		<SimpleData name="amoun">70.3398165256325</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>13.741957736307837,51.033956788534006 13.741666018391882,51.033996673562392</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#path_vibration">
+		<SimpleData name="se_vib">path_sg 5</SimpleData>
+		<SimpleData name="amoun">76.7040251997949</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>13.741505450169974,51.034027965996486 13.741153021292067,51.034096649309433</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#path_vibration">
+		<SimpleData name="se_vib">path_sg 9</SimpleData>
+		<SimpleData name="amoun">101.97601619177</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>13.740672152770689,51.034192982430483 13.740495055871046,51.034335939235703</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#path_vibration">
+		<SimpleData name="se_vib">path_sg 16</SimpleData>
+		<SimpleData name="amoun">78.3312082006393</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>13.739490178000628,51.03445144091657 13.739330062117626,51.034483827403115</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#path_vibration">
+		<SimpleData name="se_vib">path_sg 19</SimpleData>
+		<SimpleData name="amoun">67.2478668525954</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>13.73881734866538,51.034586915469475 13.738657118888083,51.034619030595977</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#path_vibration">
+		<SimpleData name="se_vib">path_sg 20</SimpleData>
+		<SimpleData name="amoun">107.155100606406</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>13.738657118888083,51.034619030595977 13.738511155246048,51.034660558379102</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#path_vibration">
+		<SimpleData name="se_vib">path_sg 30</SimpleData>
+		<SimpleData name="amoun">117.59569523379</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>13.736668962820461,51.035011743687342 13.736510336172254,51.035217866242753</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#path_vibration">
+		<SimpleData name="se_vib">path_sg 32</SimpleData>
+		<SimpleData name="amoun">107.819742099882</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>13.736382700477586,51.035140354229377 13.736155650608302,51.035111145291424</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#path_vibration">
+		<SimpleData name="se_vib">path_sg 33</SimpleData>
+		<SimpleData name="amoun">71.6878692245603</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>13.736155650608302,51.035111145291424 13.735995296593854,51.035142961311372</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#path_vibration">
+		<SimpleData name="se_vib">path_sg 44</SimpleData>
+		<SimpleData name="amoun">88.2322588944159</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>13.734327425695398,51.035469798924552 13.734166901231548,51.03550119914452</coordinates></LineString>
+  </Placemark>
+</Folder>
+</Document></kml>
