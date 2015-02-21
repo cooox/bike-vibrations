@@ -60,6 +60,19 @@
             }
         }
 
+        function create_kml_layer(_path, _color) {
+            return new ol.layer.Vector({
+                source: new ol.source.KML({
+                    extractStyles: false,
+                    projection: 'EPSG:900913',
+                    url: '../KMLs/' + _path
+                }),
+                style: new ol.style.Style({
+                    stroke: new ol.style.Stroke({ color: _color, width: 6 })
+                })
+            });
+        }
+
         var iconFeatures_soft = [];
         var iconFeatures_hard = [];
         var iconFeatures_time = [];
@@ -92,16 +105,14 @@
             })
         });
 
-        var layer_kml = new ol.layer.Vector({
-            source: new ol.source.KML({
-                extractStyles: false,
-                projection: 'EPSG:900913',
-                url: '../KMLs/path_vib.kml'
-            }),
-            style: new ol.style.Style({
-                stroke: new ol.style.Stroke({ color: 'pink', width: 6 })
-            })
-        });
+        var kml_layers = [
+            create_kml_layer('Zellescher Weg/path_vib_bumpy.kml', 'red'),
+            create_kml_layer('Zellescher Weg/path_vib_medium.kml', 'yellow'),
+            create_kml_layer('Zellescher Weg/path_vib_smooth.kml', 'green'),
+            create_kml_layer('Elbradweg/path_vib_bumpy.kml', 'red'),
+            create_kml_layer('Elbradweg/path_vib_medium.kml', 'yellow'),
+            create_kml_layer('Elbradweg/path_vib_smooth.kml', 'green')
+        ]
 
         var layer01 = new ol.layer.Vector({
             // Soft vibrations layer
@@ -124,17 +135,20 @@
         });
 
         function init() {
+            var _layers = [
+                new ol.layer.Tile({
+                    source: new ol.source.OSM(),
+                }),
+                layer01,
+                layer02,
+                layer03
+            ]
+
+            _layers.push.apply(_layers, kml_layers);
+
             var map = new ol.Map({
                 target: 'map',
-                layers: [
-                    new ol.layer.Tile({
-                        source: new ol.source.OSM(),
-                    }),
-                    layer_kml,
-                    layer01,
-                    layer02,
-                    layer03
-                ],
+                layers:  _layers,
                 view: new ol.View({
                     center: ol.proj.transform([13.7424, 51.0452], 'EPSG:4326', 'EPSG:900913'),
                     zoom: 14
